@@ -6,7 +6,7 @@ import { Container, Title, Subtitle, Arrow, Texts } from './Styles';
 
 const Header = () => {
   return (
-    <Container>
+    <Container id="header">
       <Image
         src={HeaderImg}
         placeholder="blur"

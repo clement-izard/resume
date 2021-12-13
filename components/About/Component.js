@@ -6,7 +6,7 @@ import { Container, Inner, ImageContainer, Contact, AboutMe, Title, Paragraph } 
 
 const About = () => {
   return (
-    <Container>
+    <Container id="about">
       <Inner>
         <ImageContainer>
           <Image

@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
+import { darkBackground, textColor } from 'styles/Colors';
+
 export const Container = styled.section`
-  background-color: rgb(32, 35, 36);
+  background-color: ${darkBackground};
   padding: 100px 0;
 `;
 export const Inner = styled.div`
@@ -30,5 +32,5 @@ export const Title = styled.h2`
   padding-bottom: 16px;
 `;
 export const Paragraph = styled.p`
-  color: rgb(155, 146, 133);
+  color: ${textColor};
 `;
