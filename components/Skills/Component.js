@@ -1,8 +1,7 @@
 import React, { memo } from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 
-import { Container, Inner, Title, Stack, Element, Label } from './Styles';
+import { Container, Inner, Stack, Element } from './Styles';
 
 const Skills = () => {
   return (
@@ -11,7 +10,7 @@ const Skills = () => {
         <Stack style={{ marginBottom: 32 }}>
           <a href="https://neo4j.com/" target="_blank">
             <Element>
-              <Image src="/icons/neo4j-logo-2020-1.svg" alt="Neo4j Icon" width={110} height={120} />
+              <Image src="/icons/neo4j.svg" alt="Neo4j Icon" width={110} height={120} />
             </Element>
           </a>
           <a href="https://graphql.org/" target="_blank">
@@ -36,7 +35,7 @@ const Skills = () => {
           </a>
           <a href="https://www.cypress.io/" target="_blank">
             <Element>
-              <Image src="/icons/cypress-logo.png" alt="Cypress Icon" width={120} height={57} />
+              <Image src="/icons/cypress.png" alt="Cypress Icon" width={120} height={57} />
             </Element>
           </a>
         </Stack>

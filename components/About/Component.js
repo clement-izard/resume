@@ -20,8 +20,11 @@ const About = () => {
         <AboutMe>
           <Title>About me</Title>
           <Paragraph>
-            I have always been passionate by computer science. Creating something from nothing with
-            only the power of the mind will always astonish me.
+            I love working with high performance frameworks that makes our lives easier. I'm
+            thinking of the Neo4j + Apollo-Express + Next.js + Tailwind + Ionic + capacitor stack
+            that can start and end a project quickly and efficiently while still being on the
+            bleeding edge. I have always been passionate by computer science. Creating something
+            from nothing with only the power of the mind will always astonish me.
           </Paragraph>
         </AboutMe>
         <Contact>
