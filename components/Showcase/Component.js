@@ -1,22 +1,21 @@
 import React, { memo } from 'react';
 
 import Card from './Card';
-import { Container, Inner, Divider } from './Styles';
 import { education, experiences } from './Tools';
 
 const Showcase = () => {
   return (
-    <Container id="showcase">
-      <Inner>
+    <section id="showcase" className="py-24 bg-zinc-900">
+      <div className="w-full sm:w-[70%] mx-auto flex flex-col">
         {experiences.map(e => (
           <Card {...e} key={e.title} />
         ))}
-        <Divider />
+        <div className="bg-white w-full h-[1px] my-14" />
         {education.map(e => (
           <Card {...e} key={e.title} />
         ))}
-      </Inner>
-    </Container>
+      </div>
+    </section>
   );
 };
 

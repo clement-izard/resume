@@ -4,14 +4,23 @@ import Image from 'next/image';
 
 import Gallery from './Gallery';
 import { cardVariants } from './Animations';
-import { Container, Inner, Details, Infos, LogoContainer, Title, Extras } from './Styles';
+import { Container, Inner, Logo, Infos, Details, Extras } from './Styles';
 
-const Card = ({ image, title, date, info, details, companyInfos, features, ...props }) => {
+const Card = ({ logo, title, date, info, details, companyInfos, features, images, ...props }) => {
+  const closedRef = useRef(null);
   const [open, setOpen] = useState(false);
+  const [closedHeight, setClosedHeight] = useState(0);
 
   const handleOpen = useCallback(() => {
     setOpen(v => !v);
   }, []);
+
+  useEffect(() => {
+    if (closedRef.current) {
+      const { height } = closedRef.current?.getBoundingClientRect();
+      setClosedHeight(height);
+    }
+  }, [closedRef]);
 
   return (
     <Container
@@ -20,30 +29,33 @@ const Card = ({ image, title, date, info, details, companyInfos, features, ...pr
       animate={open ? 'open' : 'initial'}
       onClick={handleOpen}
       open={open}
+      custom={closedHeight}
+      className="relative bg-zinc-900 cursor-pointer overflow-hidden py-4 px-6"
     >
-      <Inner>
-        <LogoContainer>
-          <Image {...image} />
-        </LogoContainer>
-        <Infos>
-          <Title>{title}</Title>
-          <strong>{date}</strong> {info}
+      <Inner className="flex flex-col align-center md:grid md:gap-5" ref={closedRef}>
+        <Logo className="min-w-[150px] flex items-center justify-center mb-6 md:mb-0">
+          <Image {...logo} />
+        </Logo>
+        <Infos className="text-zinc-400">
+          <h2 className="text-white font-semibold mb-6">{title}</h2>
+          <strong className="mr-6">{date}</strong> {info}
         </Infos>
-        <Details>{details}</Details>
+        <Details className="mt-6 md:mt-0 text-zinc-400">{details}</Details>
       </Inner>
       <AnimatePresence>
+        {!!(open && images) && <Gallery key="gallery" images={images} />}
         {open && (
           <Extras
             key="extras"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
+            className="mt-6 text-zinc-400"
           >
-            <div>{companyInfos ? companyInfos : null}</div>
-            <div>{features ? features : null}</div>
+            {features ? <div className="mb-6">{features}</div> : null}
+            {companyInfos ? <div>{companyInfos}</div> : null}
           </Extras>
         )}
-        {open && <Gallery key="gallery" />}
       </AnimatePresence>
     </Container>
   );

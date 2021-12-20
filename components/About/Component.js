@@ -1,38 +1,40 @@
 import React, { memo } from 'react';
 import Image from 'next/image';
 
-import ProfileImg from 'public/profile.jpg';
-import { Container, Inner, ImageContainer, Contact, AboutMe, Title, Paragraph } from './Styles';
+import { Inner, ImageContainer, Contact, AboutMe, Title, Paragraph } from './Styles';
 
 const About = () => {
   return (
-    <Container id="about">
-      <Inner>
-        <ImageContainer>
+    <section id="about" className="bg-zinc-900 py-24">
+      <Inner className="w-3/5 mx-auto flex flex-col lg:grid lg:gap-x-16 lg:gap-y-8">
+        <ImageContainer className="row-span-2 mx-auto w-40 rounded-md overflow-hidden">
           <Image
-            src={ProfileImg}
+            src="/profile.jpg"
             alt="Profile picture"
             width={100}
             height={100}
             layout="responsive"
           />
         </ImageContainer>
-        <AboutMe>
-          <Title>About me</Title>
-          <Paragraph>
-            I love working with high performance frameworks that makes our lives easier. I'm
-            thinking of the Neo4j + Apollo-Express + Next.js + Tailwind + Ionic + capacitor stack
-            that can start and end a project quickly and efficiently while still being on the
-            bleeding edge. I have always been passionate by computer science. Creating something
-            from nothing with only the power of the mind will always astonish me.
-          </Paragraph>
+        <AboutMe className="mt-6 lg:mt-0">
+          <h2 className="pb-4 text-white font-semibold">About me</h2>
+          <p className="text-zinc-400 mb-6">
+            I love working with high performance frameworks that makes our lives easier, regardless
+            of the language. I'm thinking of stacks that can start and end a project quickly and
+            efficiently while still being on the bleeding edge.
+          </p>
+          <p className="text-zinc-400">
+            Of course different needs mean different stacks, but with the state of tech right now
+            and the increasing demand of doing things fast, Javascript is the Swiss army knife of
+            the web development (among other things).
+          </p>
         </AboutMe>
-        <Contact>
-          <Title>Contact details</Title>
+        <Contact className="mt-6 lg:mt-0">
+          <h2 className="pb-4 text-white font-semibold">Contact details</h2>
           <Paragraph>Github - Linkedin</Paragraph>
         </Contact>
       </Inner>
-    </Container>
+    </section>
   );
 };
 

@@ -1,6 +1,6 @@
 export const cardVariants = {
-  initial: () => ({
-    height: 150,
+  initial: closedHeight => ({
+    height: closedHeight,
   }),
   open: () => ({
     height: '100%',
@@ -9,6 +9,5 @@ export const cardVariants = {
         type: 'ease-out',
       },
     },
-    boxShadow: '3px 3px 18px 0 rgba(0, 0, 0, 0.9)',
   }),
 };

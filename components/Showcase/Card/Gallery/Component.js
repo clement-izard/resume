@@ -11,13 +11,7 @@ const swipePower = (offset, velocity) => {
   return Math.abs(offset) * velocity;
 };
 
-const Gallery = ({ ...props }) => {
-  const images = [
-    'https://d33wubrfki0l68.cloudfront.net/dd23708ebc4053551bb33e18b7174e73b6e1710b/dea24/static/images/wallpapers/shared-colors@2x.png',
-    'https://d33wubrfki0l68.cloudfront.net/49de349d12db851952c5556f3c637ca772745316/cfc56/static/images/wallpapers/bridge-02@2x.png',
-    'https://d33wubrfki0l68.cloudfront.net/594de66469079c21fc54c14db0591305a1198dd6/3f4b1/static/images/wallpapers/bridge-01@2x.png',
-  ];
-
+const Gallery = ({ images, ...props }) => {
   const [[page, direction], setPage] = useState([0, 0]);
 
   // We only have 3 images, but we paginate them absolutely (ie 1, 2, 3, 4, 5...) and
@@ -31,7 +25,7 @@ const Gallery = ({ ...props }) => {
   };
 
   return (
-    <Container {...props}>
+    <Container {...props} className="relative aspect-video mt-6">
       <AnimatePresence initial={false} custom={direction}>
         <motion.img
           key={page}
@@ -66,6 +60,7 @@ const Gallery = ({ ...props }) => {
           e.stopPropagation();
           paginate(1);
         }}
+        className="absolute bg-white w-10 h-10 flex justify-center items-center select-none cursor-pointer font-bold text-lg"
       >
         {'‣'}
       </Arrow>
@@ -75,6 +70,7 @@ const Gallery = ({ ...props }) => {
           e.stopPropagation();
           paginate(-1);
         }}
+        className="absolute bg-white w-10 h-10 flex justify-center items-center select-none cursor-pointer font-bold text-lg"
       >
         {'‣'}
       </Arrow>

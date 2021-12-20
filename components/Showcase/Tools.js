@@ -1,6 +1,6 @@
 export const experiences = [
   {
-    image: {
+    logo: {
       src: '/icons/medvice.svg',
       alt: 'Medvice icon',
       width: 150,
@@ -52,10 +52,15 @@ export const experiences = [
         </ul>
       </>
     ),
+    images: [
+      'https://d33wubrfki0l68.cloudfront.net/dd23708ebc4053551bb33e18b7174e73b6e1710b/dea24/static/images/wallpapers/shared-colors@2x.png',
+      'https://d33wubrfki0l68.cloudfront.net/49de349d12db851952c5556f3c637ca772745316/cfc56/static/images/wallpapers/bridge-02@2x.png',
+      'https://d33wubrfki0l68.cloudfront.net/594de66469079c21fc54c14db0591305a1198dd6/3f4b1/static/images/wallpapers/bridge-01@2x.png',
+    ],
   },
   {
     noOpen: true,
-    image: {
+    logo: {
       src: '/icons/sii.svg',
       alt: 'Sii icon',
       width: 150,
@@ -65,10 +70,42 @@ export const experiences = [
     date: '2019-2020',
     info: 'On site - 7 months',
     details: 'Upgraded an energy EV visualization app (Knockout.js, Next.js)',
+    companyInfos: (
+      <>
+        <p>
+          I was hired by{' '}
+          <a
+            href="https://sii-group.com"
+            target="_blank"
+            onClick={e => e.stopPropagation()}
+            style={{ textDecoration: 'underline' }}
+          >
+            SII
+          </a>{' '}
+          as a contractor and worked at{' '}
+          <a
+            href="https://hager.com"
+            target="_blank"
+            onClick={e => e.stopPropagation()}
+            style={{ textDecoration: 'underline' }}
+          >
+            Hager
+          </a>
+          , a supplier of electrical solutions for residential, tertiary and industrial buildings.
+        </p>
+        <br />
+        <p>
+          I was part of the team that modernized an app to view the electrical devices in an house
+          like solar panel, battery, electrical vehicle etc. The initial app was written with
+          Knockout.js and require.js, we made some updates on it before starting to rebuild it from
+          scratch with Next.js and Swr.
+        </p>
+      </>
+    ),
   },
   {
     noOpen: true,
-    image: {
+    logo: {
       src: '/icons/whereyoulove.svg',
       alt: 'Whereyoulove icon',
       width: 150,
@@ -81,7 +118,7 @@ export const experiences = [
   },
   {
     noOpen: true,
-    image: {
+    logo: {
       src: '/icons/hickup.png',
       alt: 'Hickup icon',
       width: 130,
@@ -95,7 +132,7 @@ export const experiences = [
   {
     noOpen: true,
     noMargin: true,
-    image: {
+    logo: {
       src: '/icons/orange.png',
       alt: 'Orange icon',
       width: 100,
@@ -111,7 +148,7 @@ export const experiences = [
 export const education = [
   {
     noOpen: true,
-    image: {
+    logo: {
       src: '/icons/epitech.png',
       alt: 'Epitech icon',
       width: 150,
@@ -126,7 +163,7 @@ export const education = [
   {
     noOpen: true,
     noMargin: true,
-    image: {
+    logo: {
       src: '/icons/ahlia.png',
       alt: 'Ahlia icon',
       width: 100,
