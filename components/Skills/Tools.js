@@ -39,7 +39,7 @@ export const row1 = [
     image: '/icons/cypress.png',
     alt: 'Cypress icon',
     width: 100,
-    height: 55,
+    height: 54,
   },
 ];
 

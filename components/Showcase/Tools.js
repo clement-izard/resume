@@ -13,16 +13,15 @@ export const experiences = [
     companyInfos: (
       <>
         <p>
-          Medvice (
           <a
             href="https://medvice.io"
             target="_blank"
             onClick={e => e.stopPropagation()}
             style={{ textDecoration: 'underline' }}
           >
-            medvice.io
-          </a>
-          ) is a health startup that aim to save doctors time by allowing the patients to fill
+            Medvice
+          </a>{' '}
+          is a health startup that aim to save doctors time by allowing the patients to fill
           complaints on their phone before going to the clinic.
         </p>
         <br />
@@ -41,14 +40,37 @@ export const experiences = [
     ),
     features: (
       <>
-        <h4>Features</h4>
+        <strong>Features</strong>
         <ul style={{ marginLeft: 12, marginTop: 12 }}>
-          <li>One</li>
-          <li>Two</li>
-          <li>3</li>
-          <li>4</li>
-          <li>5</li>
-          <li>6</li>
+          <li className="mb-0.5">- Calendar and scheduling</li>
+          <li className="mb-0.5">
+            -{' '}
+            <a href="https://www.twilio.com" className="underline" target="_blank">
+              Twilio
+            </a>{' '}
+            video & chat
+          </li>
+          <li className="mb-0.5">- Complaint creator</li>
+          <li className="mb-0.5">- Desktop notifications</li>
+          <li className="mb-0.5">
+            - 2fa,{' '}
+            <a href="https://sentry.io" className="underline" target="_blank">
+              Sentry
+            </a>
+            ,{' '}
+            <a href="https://www.zendesk.com" className="underline" target="_blank">
+              Zendesk
+            </a>
+            ,{' '}
+            <a href="https://instabug.com" className="underline" target="_blank">
+              Instabug
+            </a>
+            ...
+          </li>
+          <li className="mb-0.5">- Speech to text</li>
+          <li className="mb-0.5">- Geolocation & maps</li>
+          <li className="mb-0.5">- Onesignal integration</li>
+          <li className="">- Rich text input</li>
         </ul>
       </>
     ),
@@ -59,7 +81,6 @@ export const experiences = [
     ],
   },
   {
-    noOpen: true,
     logo: {
       src: '/icons/sii.svg',
       alt: 'Sii icon',
@@ -97,14 +118,13 @@ export const experiences = [
         <p>
           I was part of the team that modernized an app to view the electrical devices in an house
           like solar panel, battery, electrical vehicle etc. The initial app was written with
-          Knockout.js and require.js, we made some updates on it before starting to rebuild it from
-          scratch with Next.js and Swr.
+          Knockout.js and require.js, we made some updates before starting to rebuild it with
+          Next.js and Swr.
         </p>
       </>
     ),
   },
   {
-    noOpen: true,
     logo: {
       src: '/icons/whereyoulove.svg',
       alt: 'Whereyoulove icon',
@@ -114,10 +134,43 @@ export const experiences = [
     title: 'Where you love - Lead Front end developer',
     date: '2017-2019',
     info: 'Half remote - 2 years',
-    details: 'Integration of new design from scratch (React)',
+    details:
+      'Created the questionnaires generator for the end user along with the administrator and real estate agent dashboards (React.js)',
+    companyInfos: (
+      <>
+        <p>
+          <a
+            href="https://whereyoulove.com/"
+            target="_blank"
+            onClick={e => e.stopPropagation()}
+            style={{ textDecoration: 'underline' }}
+          >
+            WhereYouLove
+          </a>{' '}
+          is a real estate startup. By regrouping places from different sources and asking lifestyle
+          questions to a user, whereyoulove matches him with the most fitting houses or apartments;
+          saving hours of searching by himself.
+        </p>
+        <br />
+        <p>
+          Home owners have their own dashboard to customize their offers. Based on the location,
+          whereyoulove add the number of theatre, fast-food and schools nearby. Each result have
+          their own score based on the user's choice.
+        </p>
+        <br />
+        <p>This startup has been bought by a real estate company in 2020.</p>
+      </>
+    ),
+    images: [
+      '/demo/whereyoulove/homepage.png',
+      '/demo/whereyoulove/homepage2.png',
+      '/demo/whereyoulove/search.png',
+      '/demo/whereyoulove/search2.png',
+      '/demo/whereyoulove/results.png',
+      '/demo/whereyoulove/results2.png',
+    ],
   },
   {
-    noOpen: true,
     logo: {
       src: '/icons/hickup.png',
       alt: 'Hickup icon',
@@ -127,10 +180,34 @@ export const experiences = [
     title: 'Hickup - Front end intern',
     date: '2015-2016',
     info: 'On site - 6 months - internship',
-    details: 'Upgraded tablet apps to allow dynamic rebranding in Showpad (Angular, Ionic)',
+    details: 'Upgraded tablet apps to allow dynamic rebranding (Angular, Ionic)',
+    companyInfos: (
+      <>
+        <p>
+          Hickup was specialized in creating tablet apps to sell a product. The app was sold to
+          other companies marketing team to sell their product.
+        </p>
+        <br />
+        <p>
+          My role was to make each app customizable through a dashboard. This way every app could be
+          rebranded infinitely to sell any product from any brand.
+        </p>
+        <br />
+        <p>
+          At the end of my internship, I trained the next intern to continue my work.{' '}
+          <a
+            href="https://www.crunchbase.com/acquisition/showpad-acquires-hickup--3912eaf1"
+            target="_blank"
+            onClick={e => e.stopPropagation()}
+            style={{ textDecoration: 'underline' }}
+          >
+            The company was acquired by Showpad a year later.
+          </a>
+        </p>
+      </>
+    ),
   },
   {
-    noOpen: true,
     noMargin: true,
     logo: {
       src: '/icons/orange.png',
@@ -143,11 +220,34 @@ export const experiences = [
     info: 'On site - 6 months - internship',
     details:
       'Creation of a seller rating dashboard based on their sells / complaints (Access, Php, SQL, jQuery)',
+    companyInfos: (
+      <>
+        <p>
+          <a
+            href="https://www.orange.com"
+            target="_blank"
+            onClick={e => e.stopPropagation()}
+            style={{ textDecoration: 'underline' }}
+          >
+            Orange
+          </a>{' '}
+          is a telecom company, one of the largest in France. They also own stores to sell phones
+          and internet packages. In these stores sellers are rated by their sells and complaints, I
+          started the internal web app that rank them.
+        </p>
+        <br />
+        <p>
+          I used Microsoft Access to create complex queries through multiple databases. With
+          aggregated data I used Php and jQuery to show them correctly in a dashboard. My work was
+          then used to congratulate the best sellers with free holidays and take actions on the ones
+          with the most complaints.
+        </p>
+      </>
+    ),
   },
 ];
 export const education = [
   {
-    noOpen: true,
     logo: {
       src: '/icons/epitech.png',
       alt: 'Epitech icon',
@@ -159,9 +259,60 @@ export const education = [
     info: 'Master’s Degree in computer science',
     details:
       'Creation of a web application for graduation project (MySQL, Koa.js, Socket.io, React)',
+    companyInfos: (
+      <>
+        <p>
+          The graduation project I made at{' '}
+          <a
+            href="https://www.epitech.com"
+            target="_blank"
+            onClick={e => e.stopPropagation()}
+            style={{ textDecoration: 'underline' }}
+          >
+            Epitech
+          </a>{' '}
+          started in my third year and finished at the very end of my fifth, in parallel of other
+          modules. This project was meant for gamers, more particularly competitive ones.
+        </p>
+        <br />
+        <p>
+          It was a dashboard where you could find players statistics for a specific game. I started
+          with Counter Strike - Global Offensive. Steam was not providing past statistics, only the
+          current ones. The only way to draw a graph was to refresh player data and save it in my
+          database.
+        </p>
+        <br />
+        <p>
+          I choose MySQL because I was already used to it, after a while I found that MongoDB would
+          have done the job better but it wasn't worth the time to change it.
+        </p>
+        <br />
+        <p>
+          I used Koa.js as the Node.js server; mainly because it was Express.js developers who made
+          it. Also because it looked cleaner. I quickly fallen into callback hell and Node's update
+          about async/await was such an improvement I reworked it with this new syntax.
+        </p>
+        <br />
+        <p>
+          Already used to Angular, I found a dashboard template in Angular 2 for the Front, but
+          later admitted that a rework in React could actually help develop it faster. Completely
+          new to react I read the man and never used Angular ever since.
+        </p>
+        <br />
+        <p>
+          I added Socket.io to allow real time statistics across clients and Auth0 for Google,
+          Facebook, Twitter and Steam authentications.
+        </p>
+        <br />
+        <p>
+          Another part of the app was the teams, they had their own statistics averaging the players
+          inside. Searching for a player by it's statistics allowed the teams with a missing member
+          to find the one they really needed.
+        </p>
+      </>
+    ),
   },
   {
-    noOpen: true,
     noMargin: true,
     logo: {
       src: '/icons/ahlia.png',
@@ -173,5 +324,57 @@ export const education = [
     date: '2016-2017',
     info: '9 months studies in a foreign country',
     details: 'Various modules: from Bioinformatics to Arabic class',
+    companyInfos: (
+      <>
+        <p>
+          The fourth year for Epitech's students is the{' '}
+          <a
+            href="https://www.epitech.com"
+            target="_blank"
+            onClick={e => e.stopPropagation()}
+            style={{ textDecoration: 'underline' }}
+          >
+            Epitech
+          </a>{' '}
+          started in my third year and finished at the very end of my fifth, in parallel of other
+          modules. This project was meant for gamers, more particularly competitive ones.
+        </p>
+        <br />
+        <p>
+          It was a dashboard where you could find players statistics for a specific game. I started
+          with Counter Strike - Global Offensive. Steam was not providing past statistics, only the
+          current ones. The only way to draw a graph was to refresh player data and save it in my
+          database.
+        </p>
+        <br />
+        <p>
+          I choose MySQL because I was already used to it, after a while I found that MongoDB would
+          have done the job better but it wasn't worth the time to change it.
+        </p>
+        <br />
+        <p>
+          I used Koa.js for the Backend; mainly because it was made by Express.js developers and
+          more performant. I quickly fallen into callback hell and Node's update about async/await
+          was such an improvement I reworked it with this new syntax.
+        </p>
+        <br />
+        <p>
+          Already used to Angular, I found a dashboard template in Angular 2 for the Front, but I
+          later admitted that a rework in React could actually help develop it faster. Completely
+          new to React I read the man and never used Angular ever since.
+        </p>
+        <br />
+        <p>
+          I added Socket.io to allow real time statistics across clients and Auth0 for Google,
+          Facebook, Twitter and Steam authentications.
+        </p>
+        <br />
+        <p>
+          Another part of the app was the teams, they had their own statistics averaging the players
+          inside. Searching for a player by it's statistics allowed the teams with a missing member
+          to find the one they really needed.
+        </p>
+      </>
+    ),
   },
 ];

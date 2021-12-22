@@ -19,6 +19,10 @@ const Card = ({ logo, title, date, info, details, companyInfos, features, images
     if (closedRef.current) {
       const { height } = closedRef.current?.getBoundingClientRect();
       setClosedHeight(height);
+      window.addEventListener('resize', () => {
+        const { height } = closedRef.current?.getBoundingClientRect();
+        setClosedHeight(height);
+      });
     }
   }, [closedRef]);
 
@@ -33,7 +37,7 @@ const Card = ({ logo, title, date, info, details, companyInfos, features, images
       className="relative bg-zinc-900 cursor-pointer overflow-hidden py-4 px-6"
     >
       <Inner className="flex flex-col align-center md:grid md:gap-5" ref={closedRef}>
-        <Logo className="min-w-[150px] flex items-center justify-center mb-6 md:mb-0">
+        <Logo className="min-w-[150px] flex items-center justify-center mb-6 md:mb-0 md:mx-12">
           <Image {...logo} />
         </Logo>
         <Infos className="text-zinc-400">
@@ -50,10 +54,10 @@ const Card = ({ logo, title, date, info, details, companyInfos, features, images
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="mt-6 text-zinc-400"
+            className="mt-6 text-zinc-400 md:flex md:justify-between"
           >
-            {features ? <div className="mb-6">{features}</div> : null}
-            {companyInfos ? <div>{companyInfos}</div> : null}
+            {features ? <div className="mb-6 md:mx-12 min-w-[30%]">{features}</div> : null}
+            {companyInfos ? <div className="mx-16 mb-4">{companyInfos}</div> : null}
           </Extras>
         )}
       </AnimatePresence>

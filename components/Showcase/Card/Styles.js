@@ -6,8 +6,7 @@ import { motion } from 'framer-motion';
 export const Container = styled(({ noOpen, noMargin, open, innerRef, custom, ...props }) => (
   <motion.div {...props} ref={innerRef} custom={custom} />
 ))`
-  //padding: 18px 18px 18px 10%;
-  min-height: calc(2rem + ${({ custom }) => custom}px);
+  min-height: calc(2rem + ${({ custom }) => custom}px); // Padding + inner height
   ${({ noMargin }) => !noMargin && `margin-bottom: 112px;`}
   ${({ open }) =>
     open &&

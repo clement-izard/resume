@@ -55,7 +55,7 @@ const Gallery = ({ images, ...props }) => {
         />
       </AnimatePresence>
       <Arrow
-        position="left"
+        position="right"
         onClick={e => {
           e.stopPropagation();
           paginate(1);
@@ -65,7 +65,7 @@ const Gallery = ({ images, ...props }) => {
         {'‣'}
       </Arrow>
       <Arrow
-        position="right"
+        position="left"
         onClick={e => {
           e.stopPropagation();
           paginate(-1);
