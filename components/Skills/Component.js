@@ -14,6 +14,7 @@ const Skills = () => {
               key={s.url}
               href={s.url}
               target="_blank"
+              rel="noreferrer"
               className="flex items-center justify-center"
             >
               <Element className="flex items-center justify-center">
@@ -28,6 +29,7 @@ const Skills = () => {
               key={s.url}
               href={s.url}
               target="_blank"
+              rel="noreferrer"
               className="flex items-center justify-center"
             >
               <Element className="flex items-center justify-center">

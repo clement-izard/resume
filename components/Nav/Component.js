@@ -4,23 +4,13 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 const Nav = () => {
   const [fullBackground, setFullBackground] = useState(false);
 
-  const handleScroll = useCallback(
-    e => {
-      setFullBackground(v => {
-        if (window.pageYOffset < e.target.scrollingElement.clientHeight && v) return false;
-        if (window.pageYOffset >= e.target.scrollingElement.clientHeight && !v) return true;
-        return v;
-      });
-
-      // if (window.pageYOffset < e.target.scrollingElement.clientHeight && fullBackground)
-      //   setFullBackground(false);
-      // if (window.pageYOffset >= e.target.scrollingElement.clientHeight && !fullBackground)
-      //   setFullBackground(true);
-
-      // console.log(window.pageYOffset, e.target.scrollingElement.clientHeight);
-    },
-    [fullBackground],
-  );
+  const handleScroll = useCallback(e => {
+    setFullBackground(v => {
+      if (window.pageYOffset < e.target.scrollingElement.clientHeight && v) return false;
+      if (window.pageYOffset >= e.target.scrollingElement.clientHeight && !v) return true;
+      return v;
+    });
+  }, []);
   useEffect(() => {
     if (window) window.addEventListener('scroll', handleScroll);
     return () => {
@@ -36,22 +26,25 @@ const Nav = () => {
     >
       <AnchorLink
         href="#header"
-        className="text-white text-lg mr-12 cursor-pointer hover:underline"
+        className="text-zinc-400 text-lg mr-12 cursor-pointer hover:underline hover:text-white"
       >
         Home
       </AnchorLink>
-      <AnchorLink href="#about" className="text-white text-lg mr-12 cursor-pointer hover:underline">
+      <AnchorLink
+        href="#about"
+        className="text-zinc-400 text-lg mr-12 cursor-pointer hover:underline hover:text-white"
+      >
         About me
       </AnchorLink>
       <AnchorLink
         href="#showcase"
-        className="text-white text-lg mr-12 cursor-pointer hover:underline"
+        className="text-zinc-400 text-lg mr-12 cursor-pointer hover:underline hover:text-white"
       >
         Showcase
       </AnchorLink>
       <AnchorLink
         href="#contact"
-        className="text-white text-lg cursor-pointer hover:underline mr-16"
+        className="text-zinc-400 text-lg mr-16 cursor-pointer hover:underline hover:text-white"
       >
         Contact
       </AnchorLink>

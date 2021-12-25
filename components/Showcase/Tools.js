@@ -16,6 +16,7 @@ export const experiences = [
           <a
             href="https://medvice.io"
             target="_blank"
+            rel="noreferrer"
             onClick={e => e.stopPropagation()}
             style={{ textDecoration: 'underline' }}
           >
@@ -98,6 +99,7 @@ export const experiences = [
           <a
             href="https://sii-group.com"
             target="_blank"
+            rel="noreferrer"
             onClick={e => e.stopPropagation()}
             style={{ textDecoration: 'underline' }}
           >
@@ -107,6 +109,7 @@ export const experiences = [
           <a
             href="https://hager.com"
             target="_blank"
+            rel="noreferrer"
             onClick={e => e.stopPropagation()}
             style={{ textDecoration: 'underline' }}
           >
@@ -142,6 +145,7 @@ export const experiences = [
           <a
             href="https://whereyoulove.com/"
             target="_blank"
+            rel="noreferrer"
             onClick={e => e.stopPropagation()}
             style={{ textDecoration: 'underline' }}
           >
@@ -198,6 +202,7 @@ export const experiences = [
           <a
             href="https://www.crunchbase.com/acquisition/showpad-acquires-hickup--3912eaf1"
             target="_blank"
+            rel="noreferrer"
             onClick={e => e.stopPropagation()}
             style={{ textDecoration: 'underline' }}
           >
@@ -226,6 +231,7 @@ export const experiences = [
           <a
             href="https://www.orange.com"
             target="_blank"
+            rel="noreferrer"
             onClick={e => e.stopPropagation()}
             style={{ textDecoration: 'underline' }}
           >
@@ -237,10 +243,10 @@ export const experiences = [
         </p>
         <br />
         <p>
-          I used Microsoft Access to create complex queries through multiple databases. With
-          aggregated data I used Php and jQuery to show them correctly in a dashboard. My work was
-          then used to congratulate the best sellers with free holidays and take actions on the ones
-          with the most complaints.
+          I used Microsoft Access to create complex queries through a few databases. With aggregated
+          data I used Php and jQuery to show them correctly in a dashboard. My work was then used to
+          congratulate the best sellers with free holidays and take actions on the ones with the
+          most complaints.
         </p>
       </>
     ),
@@ -264,8 +270,9 @@ export const education = [
         <p>
           The graduation project I made at{' '}
           <a
-            href="https://www.epitech.com"
+            href="https://www.epitech.eu"
             target="_blank"
+            rel="noreferrer"
             onClick={e => e.stopPropagation()}
             style={{ textDecoration: 'underline' }}
           >
@@ -327,52 +334,25 @@ export const education = [
     companyInfos: (
       <>
         <p>
-          The fourth year for Epitech's students is the{' '}
+          For the fourth year of studies, Epitech require the students to go to a foreign country
+          and validate modules there. Many of the partner universities are located in Europe or in
+          North America.
+        </p>
+        <br />
+        <p>
+          I choose to go to{' '}
           <a
-            href="https://www.epitech.com"
+            href="https://www.ahlia.edu.bh/"
             target="_blank"
+            rel="noreferrer"
             onClick={e => e.stopPropagation()}
             style={{ textDecoration: 'underline' }}
           >
-            Epitech
+            Ahlia university
           </a>{' '}
-          started in my third year and finished at the very end of my fifth, in parallel of other
-          modules. This project was meant for gamers, more particularly competitive ones.
-        </p>
-        <br />
-        <p>
-          It was a dashboard where you could find players statistics for a specific game. I started
-          with Counter Strike - Global Offensive. Steam was not providing past statistics, only the
-          current ones. The only way to draw a graph was to refresh player data and save it in my
-          database.
-        </p>
-        <br />
-        <p>
-          I choose MySQL because I was already used to it, after a while I found that MongoDB would
-          have done the job better but it wasn't worth the time to change it.
-        </p>
-        <br />
-        <p>
-          I used Koa.js for the Backend; mainly because it was made by Express.js developers and
-          more performant. I quickly fallen into callback hell and Node's update about async/await
-          was such an improvement I reworked it with this new syntax.
-        </p>
-        <br />
-        <p>
-          Already used to Angular, I found a dashboard template in Angular 2 for the Front, but I
-          later admitted that a rework in React could actually help develop it faster. Completely
-          new to React I read the man and never used Angular ever since.
-        </p>
-        <br />
-        <p>
-          I added Socket.io to allow real time statistics across clients and Auth0 for Google,
-          Facebook, Twitter and Steam authentications.
-        </p>
-        <br />
-        <p>
-          Another part of the app was the teams, they had their own statistics averaging the players
-          inside. Searching for a player by it's statistics allowed the teams with a missing member
-          to find the one they really needed.
+          in Bahrain because they had a Bioinformatics module which was very rare, only 2
+          universities offered it. It was also very different from any country in Europe or North
+          America, a way to actually see something else and have some real adventure.
         </p>
       </>
     ),
