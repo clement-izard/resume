@@ -26,25 +26,25 @@ const Nav = () => {
     >
       <AnchorLink
         href="#header"
-        className="text-zinc-400 text-lg mr-12 cursor-pointer hover:underline hover:text-white"
+        className="text-zinc-400 mr-4 xs:mr-6 sm:mr-8 md:mr-12 text-sm sm:text-base md:text-lg cursor-pointer hover:underline hover:text-white"
       >
         Home
       </AnchorLink>
       <AnchorLink
         href="#about"
-        className="text-zinc-400 text-lg mr-12 cursor-pointer hover:underline hover:text-white"
+        className="text-zinc-400 mr-4 xs:mr-6 sm:mr-8 md:mr-12 text-sm sm:text-base md:text-lg cursor-pointer hover:underline hover:text-white"
       >
         About me
       </AnchorLink>
       <AnchorLink
         href="#showcase"
-        className="text-zinc-400 text-lg mr-12 cursor-pointer hover:underline hover:text-white"
+        className="text-zinc-400 mr-4 xs:mr-6 sm:mr-8 md:mr-12 text-sm sm:text-base md:text-lg cursor-pointer hover:underline hover:text-white"
       >
-        Showcase
+        Experiences
       </AnchorLink>
       <AnchorLink
         href="#contact"
-        className="text-zinc-400 text-lg mr-16 cursor-pointer hover:underline hover:text-white"
+        className="text-zinc-400 mr-4 xs:mr-8 sm:mr-12 md:mr-16 text-sm sm:text-base md:text-lg6 cursor-pointer hover:underline hover:text-white"
       >
         Contact
       </AnchorLink>

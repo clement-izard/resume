@@ -6,7 +6,7 @@ import { education, experiences } from './Tools';
 const Showcase = () => {
   return (
     <section id="showcase" className="py-24 bg-zinc-900">
-      <div className="w-full sm:w-[90%] md:w-[80%] lg:w-[70%] mx-auto flex flex-col">
+      <div className="w-full xs:w-[95%] sm:w-[90%] md:w-[80%] lg:w-[70%] mx-auto flex flex-col">
         {experiences.map(e => (
           <Card {...e} key={e.title} />
         ))}

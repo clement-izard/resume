@@ -57,7 +57,7 @@ const Card = ({ logo, title, date, info, details, companyInfos, features, images
             className="mt-6 text-zinc-400 md:flex md:justify-between"
           >
             {features ? <div className="mb-6 md:mx-12 min-w-[30%]">{features}</div> : null}
-            {companyInfos ? <div className="mx-16 mb-4">{companyInfos}</div> : null}
+            {companyInfos ? <div className="sm:mx-16 mb-4">{companyInfos}</div> : null}
           </Extras>
         )}
       </AnimatePresence>

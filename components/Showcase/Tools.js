@@ -46,7 +46,7 @@ export const experiences = [
           <li className="mb-0.5">- Calendar and scheduling</li>
           <li className="mb-0.5">
             -{' '}
-            <a href="https://www.twilio.com" className="underline" target="_blank">
+            <a href="https://www.twilio.com" className="underline" target="_blank" rel="noreferrer">
               Twilio
             </a>{' '}
             video & chat
@@ -55,15 +55,20 @@ export const experiences = [
           <li className="mb-0.5">- Desktop notifications</li>
           <li className="mb-0.5">
             - 2fa,{' '}
-            <a href="https://sentry.io" className="underline" target="_blank">
+            <a href="https://sentry.io" className="underline" target="_blank" rel="noreferrer">
               Sentry
             </a>
             ,{' '}
-            <a href="https://www.zendesk.com" className="underline" target="_blank">
+            <a
+              href="https://www.zendesk.com"
+              className="underline"
+              target="_blank"
+              rel="noreferrer"
+            >
               Zendesk
             </a>
             ,{' '}
-            <a href="https://instabug.com" className="underline" target="_blank">
+            <a href="https://instabug.com" className="underline" target="_blank" rel="noreferrer">
               Instabug
             </a>
             ...
@@ -159,7 +164,7 @@ export const experiences = [
         <p>
           Home owners have their own dashboard to customize their offers. Based on the location,
           whereyoulove add the number of theatre, fast-food and schools nearby. Each result have
-          their own score based on the user's choice.
+          their own score based on the user&apos;s choice.
         </p>
         <br />
         <p>This startup has been bought by a real estate company in 2020.</p>
@@ -291,13 +296,13 @@ export const education = [
         <br />
         <p>
           I choose MySQL because I was already used to it, after a while I found that MongoDB would
-          have done the job better but it wasn't worth the time to change it.
+          have done the job better but it was not worth the time to change it.
         </p>
         <br />
         <p>
           I used Koa.js as the Node.js server; mainly because it was Express.js developers who made
-          it. Also because it looked cleaner. I quickly fallen into callback hell and Node's update
-          about async/await was such an improvement I reworked it with this new syntax.
+          it. Also because it looked cleaner. I quickly fallen into callback hell and Node&apos;s
+          update about async/await was such an improvement I reworked it with this new syntax.
         </p>
         <br />
         <p>
@@ -313,7 +318,7 @@ export const education = [
         <br />
         <p>
           Another part of the app was the teams, they had their own statistics averaging the players
-          inside. Searching for a player by it's statistics allowed the teams with a missing member
+          inside. Searching for a player by his statistics allowed the teams with a missing member
           to find the one they really needed.
         </p>
       </>

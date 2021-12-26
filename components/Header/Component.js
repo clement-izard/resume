@@ -15,7 +15,7 @@ const Header = () => {
         layout="fill"
       />
       <Texts className="absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 text-center text-white">
-        <h1 className="mb-3 text-6xl font-bold">Hi, I'm Clement</h1>
+        <h1 className="mb-3 text-6xl font-bold">Hi, I&apos;m Clement</h1>
         <sub className="text-2xl italic">yet another fullstack engineer</sub>
       </Texts>
       <Arrow />
