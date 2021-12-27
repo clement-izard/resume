@@ -38,6 +38,7 @@ export const styles = {
     block
     w-full
     px-3 py-1.5
+    md:mb-8
     text-base
     font-normal
     text-zinc-400

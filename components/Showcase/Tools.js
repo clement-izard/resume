@@ -44,15 +44,19 @@ export const experiences = [
         <strong>Features</strong>
         <ul style={{ marginLeft: 12, marginTop: 12 }}>
           <li className="mb-0.5">- Calendar and scheduling</li>
-          <li className="mb-0.5">
+          <li className="mb-0.5">- Complaint creator</li>
+          <li className="mb-0.5">- Desktop notifications</li>
+          <li className="mb-0.5">- Speech to text</li>
+          <li className="mb-0.5">- Geolocation & maps</li>
+          <li className="mb-0.5">- Onesignal integration</li>
+          <li className="mb-0.5">- Rich text input</li>
+          <li className="">
             -{' '}
             <a href="https://www.twilio.com" className="underline" target="_blank" rel="noreferrer">
               Twilio
             </a>{' '}
             video & chat
           </li>
-          <li className="mb-0.5">- Complaint creator</li>
-          <li className="mb-0.5">- Desktop notifications</li>
           <li className="mb-0.5">
             - 2fa,{' '}
             <a href="https://sentry.io" className="underline" target="_blank" rel="noreferrer">
@@ -73,17 +77,23 @@ export const experiences = [
             </a>
             ...
           </li>
-          <li className="mb-0.5">- Speech to text</li>
-          <li className="mb-0.5">- Geolocation & maps</li>
-          <li className="mb-0.5">- Onesignal integration</li>
-          <li className="">- Rich text input</li>
         </ul>
       </>
     ),
     images: [
-      'https://d33wubrfki0l68.cloudfront.net/dd23708ebc4053551bb33e18b7174e73b6e1710b/dea24/static/images/wallpapers/shared-colors@2x.png',
-      'https://d33wubrfki0l68.cloudfront.net/49de349d12db851952c5556f3c637ca772745316/cfc56/static/images/wallpapers/bridge-02@2x.png',
-      'https://d33wubrfki0l68.cloudfront.net/594de66469079c21fc54c14db0591305a1198dd6/3f4b1/static/images/wallpapers/bridge-01@2x.png',
+      '/demo/medvice/dashboard-0.png',
+      '/demo/medvice/dashboard-1.png',
+      '/demo/medvice/dashboard-2.png',
+      '/demo/medvice/dashboard-3.png',
+      '/demo/medvice/dashboard-4.png',
+      '/demo/medvice/dashboard-5.png',
+      // '/demo/medvice/mobile-0.png',
+      // '/demo/medvice/mobile-1.png',
+      // '/demo/medvice/mobile-2.png',
+      // '/demo/medvice/mobile-3.png',
+      // '/demo/medvice/mobile-4.png',
+      // '/demo/medvice/mobile-5.png',
+      // '/demo/medvice/mobile-6.png',
     ],
   },
   {
