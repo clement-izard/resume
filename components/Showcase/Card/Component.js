@@ -1,12 +1,25 @@
 import React, { memo, useCallback, useState, useRef, useEffect } from 'react';
 import { AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
+import useTranslation from 'next-translate/useTranslation';
 
 import Gallery from './Gallery';
 import { cardVariants } from './Animations';
 import { Container, Inner, Logo, Infos, Details, Extras } from './Styles';
 
-const Card = ({ logo, title, date, info, details, companyInfos, features, images, ...props }) => {
+const Card = ({
+  id,
+  logo,
+  title,
+  date,
+  info,
+  details,
+  companyInfos,
+  features,
+  images,
+  ...props
+}) => {
+  const { t } = useTranslation('home');
   const closedRef = useRef(null);
   const [open, setOpen] = useState(false);
   const [closedHeight, setClosedHeight] = useState(0);
@@ -20,8 +33,10 @@ const Card = ({ logo, title, date, info, details, companyInfos, features, images
       const { height } = closedRef.current?.getBoundingClientRect();
       setClosedHeight(height);
       window.addEventListener('resize', () => {
-        const { height } = closedRef.current?.getBoundingClientRect();
-        setClosedHeight(height);
+        if (closedRef.current) {
+          const { height } = closedRef.current?.getBoundingClientRect();
+          setClosedHeight(height);
+        }
       });
     }
   }, [closedRef]);
@@ -41,10 +56,10 @@ const Card = ({ logo, title, date, info, details, companyInfos, features, images
           <Image {...logo} />
         </Logo>
         <Infos className="text-zinc-400">
-          <h2 className="text-white font-semibold mb-6">{title}</h2>
-          <strong className="mr-6">{date}</strong> {info}
+          <h2 className="text-white font-semibold mb-6">{t(`showcase.${id}.title`)}</h2>
+          <strong className="mr-6">{date}</strong> {t(`showcase.${id}.info`)}
         </Infos>
-        <Details className="mt-6 md:mt-0 text-zinc-400">{details}</Details>
+        <Details className="mt-6 md:mt-0 text-zinc-400">{t(`showcase.${id}.details`)}</Details>
       </Inner>
       <AnimatePresence>
         {!!(open && images) && <Gallery key="gallery" images={images} />}
@@ -56,8 +71,8 @@ const Card = ({ logo, title, date, info, details, companyInfos, features, images
             exit={{ opacity: 0 }}
             className="mt-6 text-zinc-400 md:flex md:justify-between"
           >
-            {features ? <div className="mb-6 md:mx-12 min-w-[30%]">{features}</div> : null}
-            {companyInfos ? <div className="sm:mx-16 mb-4">{companyInfos}</div> : null}
+            {features ? <div className="mb-6 md:mx-12 min-w-[30%]">{features(t)}</div> : null}
+            {companyInfos ? <div className="sm:mx-16 mb-4">{companyInfos(t)}</div> : null}
           </Extras>
         )}
       </AnimatePresence>

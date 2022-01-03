@@ -1,0 +1,106 @@
+{
+  "header": {
+    "title": "Hi, I'm {{name}}",
+    "subtitle": "yet another fullstack engineer"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About me",
+    "experiences": "Experiences",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "About me",
+    "speech1": " I love working with high performance frameworks that makes our lives easier, regardless of the language. I am thinking of stacks that can start and end a project quickly and efficiently while still being on the cutting edge.",
+    "speech2": "Of course different needs mean different stacks, but with the state of tech right now and the increasing demand of doing things fast, Javascript is the Swiss army knife of the web development (among other things).",
+    "contactTitle": "Contact details"
+  },
+  "showcase": {
+    "featuresTitle": "Features",
+    "medvice": {
+      "title": "MIA Suite - Lead Front End developer",
+      "info": "Full remote - 6 months extended to 21",
+      "details": "In charge of 3 web apps and a mobile app (React, React Native)",
+      "companyInfos": {
+        "speech1": " is a health startup that aim to save doctors time by allowing the patients to fill complaints on their phone before going to the clinic.",
+        "speech2": "The doctor can send an advice and determine what is the best solution for the patient: a visit or an audiovisual call either scheduled or immediate. He can also manage his calendar by setting holidays and breaks during the day.",
+        "speech3": "Complaints are dynamically created by the clinic to fit their needs, assistants can manage doctors schedule along with other actions related to the patients.",
+        "speech4": "Medvice use an administrator dashboard to manage subscribed clinics."
+      },
+      "features": {
+        "calendar": "Calendar and scheduling",
+        "creator": "Complaint creator",
+        "notif": "Desktop notifications",
+        "stt": "Speech to text (mobile)",
+        "map": "Geolocation & maps (mobile)",
+        "rti": "Rich text input"
+      }
+    },
+    "sii": {
+      "title": "SII / Hager - Front End consultant",
+      "info": "On site - 7 months",
+      "details": "Upgraded a house energy visualization app (Knockout.js, Next.js)",
+      "companyInfos": {
+        "speech0": "I was hired by ",
+        "speech1": " as a contractor and worked at ",
+        "speech2": ", a supplier of electrical solutions for residential, tertiary and industrial buildings.",
+        "speech3": "I was part of the team that modernized an app to view the electrical devices in an house like solar panel, battery, electrical vehicle etc. The initial app was written with Knockout.js and require.js, we made some updates before starting to rebuild it with Next.js and Swr."
+      }
+    },
+    "wyl": {
+      "title": "Where you love - Lead Front end developer",
+      "info": "Half remote - 2 years",
+      "details": "Created the questionnaires generator for the end user along with the administrator and real estate agent dashboards (React.js)",
+      "companyInfos": {
+        "speech0": " is a real estate startup. By regrouping places from different sources and asking lifestyle questions to a user, WhereYouLove matches him with the most fitting houses or apartments; saving hours of searching by himself.",
+        "speech1": "Home owners have their own dashboard to customize their offers. Based on the location, WhereYouLove add the number of theatre, fast-food and schools nearby. Each result have their own score based on the user&apos;s choice.",
+        "speech2": "This startup has been bought by a real estate company in 2020."
+      }
+    },
+    "hickup": {
+      "title": "Hickup - Front end intern",
+      "info": "On site - 6 months - internship",
+      "details": "Upgraded tablet apps to allow dynamic and fast rebranding (Angular, Ionic)",
+      "companyInfos": {
+        "speech0": "Hickup was specialized in creating tablet apps to sell a product. The app was sold to other companies marketing team to sell their product.",
+        "speech1": "My role was to make each app customizable through a dashboard. This way every app could be rebranded infinitely to sell any product from any brand.",
+        "speech2": "At the end of my internship, I trained the next intern to continue my work. ",
+        "link0": "The company was acquired by Showpad a year later."
+      }
+    },
+    "orange": {
+      "title": "Orange - Fullstack intern",
+      "info": "On site - 6 months - internship",
+      "details": "Creation of a seller rating dashboard based on their sells / complaints (Access, Php, SQL, jQuery)",
+      "companyInfos": {
+        "speech0": " is a telecom company, one of the largest in France. They also own stores to sell phones and internet packages. In these stores sellers are rated by their sells and complaints, I started the internal web app that rank them.",
+        "speech1": "I used Microsoft Access to create complex queries through a few databases. With aggregated data I used Php and jQuery to show them correctly in a dashboard. My work was then used to congratulate the best sellers with free holidays and take actions on the ones with the most complaints."
+      }
+    },
+    "epitech": {
+      "title": "Epitech - Student",
+      "info": "Master’s Degree in computer science",
+      "details": "Creation of a web application for graduation project (MySQL, Koa.js, Socket.io, React)",
+      "companyInfos": {
+        "speech0": "The graduation project I made at ",
+        "speech1": "started in my third year and finished at the very end of my fifth, in parallel of other modules. This project was meant for gamers, more particularly competitive ones.",
+        "speech2": "It was a dashboard where you could find players statistics for a specific game. I started with Counter Strike - Global Offensive. Steam was not providing past statistics, only the current ones. The only way to draw a graph was to refresh player data and save it in my database.",
+        "speech3": "I choose MySQL because I was already used to it, after a while I found that MongoDB would have done the job better but it was not worth the time to change it.",
+        "speech4": "I used Koa.js as the Node.js server; mainly because it was Express.js developers who made it. Also because it looked cleaner. I quickly fallen into callback hell and Node&apos;s update about async/await was such an improvement I reworked it with this new syntax.",
+        "speech5": "Already used to Angular, I found a dashboard template in Angular 2 for the Front, but later admitted that a rework in React could actually help develop it faster. Completely new to react I read the man and never used Angular ever since.",
+        "speech6": " I added Socket.io to allow real time statistics across clients and Auth0 for Google, Facebook, Twitter and Steam authentications.",
+        "speech7": "Another part of the app was the teams, they had their own statistics averaging the players inside. Searching for a player by his statistics allowed the teams with a missing member to find the one they really needed."
+      }
+    },
+    "ahlia": {
+      "title": "Ahlia University - Student",
+      "info": "9 months studies in a foreign country",
+      "details": "Various modules: from Bioinformatics to Arabic class",
+      "companyInfos": {
+        "speech0": "For the fourth year of studies, Epitech require the students to go to a foreign country and validate modules there. Many of the partner universities are located in Europe or in North America.",
+        "speech1": "I choose to go to ",
+        "speech2": " in Bahrain because they had a Bioinformatics module which was very rare, only 2 universities offered it. It was also very different from any country in Europe or North America, a way to actually see something else and have some real adventure."
+      }
+    }
+  }
+}

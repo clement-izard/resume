@@ -20,17 +20,4 @@ export default async (req, res) => {
   });
   if (result.accepted?.length) res.send(200);
   else if (result.rejected?.length) res.send(500);
-
-  /*
-  {
-  accepted: [ 'clementizard@tutanota.com' ],
-  rejected: [],
-  envelopeTime: 118,
-  messageTime: 350,
-  messageSize: 615,
-  response: '250 2.0.0 OK  1640467005 k9sm10841846wro.80 - gsmtp',
-  envelope: { from: 'contactme@gmail.com', to: [ 'clementizard@tutanota.com' ] },
-  messageId: '<6bd6ff61-f6fc-1a98-879b-5e99778ceee0@gmail.com>'
-  }
-  */
 };

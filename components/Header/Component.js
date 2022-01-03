@@ -1,10 +1,13 @@
 import Image from 'next/image';
 import React, { memo } from 'react';
+import useTranslation from 'next-translate/useTranslation';
 
 import HeaderImg from 'public/header.jpg';
 import { Arrow, Texts } from './Styles';
 
 const Header = () => {
+  const { t } = useTranslation('home');
+
   return (
     <main id="header" className="w-screen h-screen bg-zinc-900 relative">
       <Image
@@ -15,8 +18,8 @@ const Header = () => {
         layout="fill"
       />
       <Texts className="absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 text-center text-white">
-        <h1 className="mb-3 text-6xl font-bold">Hi, I&apos;m Clement</h1>
-        <sub className="text-2xl italic">yet another fullstack engineer</sub>
+        <h1 className="mb-3 text-6xl font-bold">{t('header.title', { name: 'Clement' })}</h1>
+        <sub className="text-2xl italic">{t('header.subtitle')}</sub>
       </Texts>
       <Arrow />
     </main>

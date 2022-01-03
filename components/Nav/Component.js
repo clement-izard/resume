@@ -1,8 +1,18 @@
-import React, { memo, useCallback, useState, useEffect } from 'react';
+import React, { memo, useCallback, useState, useEffect, useRef } from 'react';
+import Image from 'next/image';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import setLanguage from 'next-translate/setLanguage';
+import useTranslation from 'next-translate/useTranslation';
+import { motion } from 'framer-motion';
+
+import { styles } from './Styles';
+import { langVariants } from './Animations';
 
 const Nav = () => {
+  const { t, lang } = useTranslation('home');
+  const [langOpen, setLangOpen] = useState(false);
   const [fullBackground, setFullBackground] = useState(false);
+  const langRef = useRef(null);
 
   const handleScroll = useCallback(e => {
     setFullBackground(v => {
@@ -11,42 +21,80 @@ const Nav = () => {
       return v;
     });
   }, []);
+  const handleLangOpen = useCallback(() => {
+    setLangOpen(v => !v);
+  }, []);
+  const handleLangChange = useCallback(
+    newLang => () => {
+      setLanguage(newLang, false); // Should be useful next "next-translate" release
+    },
+    [],
+  );
+
   useEffect(() => {
     if (window) window.addEventListener('scroll', handleScroll);
     return () => {
       if (window) window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+  useEffect(() => {
+    const handleClickOutside = e => {
+      if (langRef.current && !langRef.current.contains(e.target)) setLangOpen(false);
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, [langRef, setLangOpen]);
 
   return (
-    <nav
-      className={`fixed w-screen top-0 right-0 flex h-16 items-center justify-end z-10 ${
-        fullBackground ? 'bg-zinc-900 shadow-xl' : ''
-      }`}
-    >
-      <AnchorLink
-        href="#header"
-        className="text-zinc-400 mr-4 xs:mr-6 sm:mr-8 md:mr-12 text-sm sm:text-base md:text-lg cursor-pointer hover:underline hover:text-white"
+    <nav className={styles.nav(fullBackground)}>
+      <motion.div
+        className={styles.langContainer}
+        onClick={handleLangOpen}
+        variants={langVariants}
+        animate={langOpen ? 'open' : 'initial'}
+        ref={langRef}
       >
-        Home
+        {lang === 'en' ? (
+          <>
+            <div className="w-[20px] h-[20px] mb-4">
+              <Image src="/flags/united-kingdom.svg" width={20} height={20} />
+            </div>
+            <div className="w-[20px] h-[20px]">
+              <Image
+                src="/flags/france.svg"
+                width={20}
+                height={20}
+                onClick={handleLangChange('fr')}
+              />
+            </div>
+          </>
+        ) : (
+          <>
+            <div className="w-[20px] h-[20px] mb-4">
+              <Image src="/flags/france.svg" width={20} height={20} />
+            </div>
+            <div className="w-[20px] h-[20px]">
+              <Image
+                src="/flags/united-kingdom.svg"
+                width={20}
+                height={20}
+                onClick={handleLangChange('en')}
+              />
+            </div>
+          </>
+        )}
+      </motion.div>
+      <AnchorLink href="#header" className={styles.link}>
+        {t('nav.home')}
       </AnchorLink>
-      <AnchorLink
-        href="#about"
-        className="text-zinc-400 mr-4 xs:mr-6 sm:mr-8 md:mr-12 text-sm sm:text-base md:text-lg cursor-pointer hover:underline hover:text-white"
-      >
-        About me
+      <AnchorLink href="#about" className={styles.link}>
+        {t('nav.about')}
       </AnchorLink>
-      <AnchorLink
-        href="#showcase"
-        className="text-zinc-400 mr-4 xs:mr-6 sm:mr-8 md:mr-12 text-sm sm:text-base md:text-lg cursor-pointer hover:underline hover:text-white"
-      >
-        Experiences
+      <AnchorLink href="#showcase" className={styles.link}>
+        {t('nav.experiences')}
       </AnchorLink>
-      <AnchorLink
-        href="#contact"
-        className="text-zinc-400 mr-4 xs:mr-8 sm:mr-12 md:mr-16 text-sm sm:text-base md:text-lg6 cursor-pointer hover:underline hover:text-white"
-      >
-        Contact
+      <AnchorLink href="#contact" className={styles.lastLink}>
+        {t('nav.contact')}
       </AnchorLink>
     </nav>
   );
