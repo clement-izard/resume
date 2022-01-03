@@ -11,7 +11,8 @@
   },
   "about": {
     "title": "A propos",
-    "speech1": "J'adore travailler avec des frameworks qui allient performances et facilité d'utilisation, peu importe le language. Je pense aux stacks qui permettent de faire un projet de la base de données au mobile en un temps record.",
+    "speech0": "J'aime prendre le temps quand il le faut. Particulierement au debut d'un projet: Quelles technologies utiliser; a quoi va ressembler la ou les bases de donnees. Quels partenaire pouvons nous utiliser. Que choisir avec le temps imparti.",
+    "speech1": "J'adore travailler avec des frameworks qui allient performances et facilité d'utilisation, peu importe le language.",
     "speech2": "Evidemment a chaque besoin sa technologie, son language. Mais avec la demande grandissante de créer des produits rapidement, Javascript est le couteau suisse du développement web (entre autres).",
     "contactTitle": "Contact"
   },
@@ -58,9 +59,9 @@
       }
     },
     "hickup": {
-      "title": "Hickup - Front end intern",
-      "info": "On site - 6 months - internship",
-      "details": "Upgraded tablet apps to allow dynamic and fast rebranding (Angular, Ionic)",
+      "title": "Hickup - Front end stagiaire",
+      "info": "Sur place - 6 months - Stage",
+      "details": "Mis a jour plusieurs apps pour permettre un rebranding rapide. (Angular, Ionic)",
       "companyInfos": {
         "speech0": "Hickup was specialized in creating tablet apps to sell a product. The app was sold to other companies marketing team to sell their product.",
         "speech1": "My role was to make each app customizable through a dashboard. This way every app could be rebranded infinitely to sell any product from any brand.",
@@ -79,17 +80,17 @@
     },
     "epitech": {
       "title": "Epitech - Etudiant",
-      "info": "Master’s Degree in computer science",
+      "info": "Diplome d'expert en informatique",
       "details": "Creation of a web application for graduation project (MySQL, Koa.js, Socket.io, React)",
       "companyInfos": {
-        "speech0": "The graduation project I made at ",
-        "speech1": " started in my third year and finished at the very end of my fifth, in parallel of other modules. This project was meant for gamers, more particularly competitive ones.",
-        "speech2": "It was a dashboard where you could find players statistics for a specific game. I started with Counter Strike - Global Offensive. Steam was not providing past statistics, only the current ones. The only way to draw a graph was to refresh player data and save it in my database.",
-        "speech3": "I choose MySQL because I was already used to it, after a while I found that MongoDB would have done the job better but it was not worth the time to change it.",
-        "speech4": "I used Koa.js as the Node.js server; mainly because it was Express.js developers who made it. Also because it looked cleaner. I quickly fallen into callback hell and Node&apos;s update about async/await was such an improvement I reworked it with this new syntax.",
-        "speech5": "Already used to Angular, I found a dashboard template in Angular 2 for the Front, but later admitted that a rework in React could actually help develop it faster. Completely new to react I read the man and never used Angular ever since.",
-        "speech6": " I added Socket.io to allow real time statistics across clients and Auth0 for Google, Facebook, Twitter and Steam authentications.",
-        "speech7": "Another part of the app was the teams, they had their own statistics averaging the players inside. Searching for a player by his statistics allowed the teams with a missing member to find the one they really needed."
+        "speech0": "Le projet de fin d'etudes que j'ai realise a ",
+        "speech1": " etait etale sur deux ans et demi en plus des modules classiques, de la troisieme a la cinquieme annee. Ce projet etait destine aux joueurs Esport competetifs.",
+        "speech2": "Il s'agissais d'un dashboard qui donnais les statistiques dans le temps d'un joueur sur un jeu precis. J'ai commence a travailler avec l'API de Steam pour recuperer les donnees de Counter Strike - Global Offensive.",
+        "speech3": "Steam ne proposais pas de donnees dans le temps, uniquement a l'instant de la requete. Pour creer un graphique j'ai utilise MySQL comme base de donnees et enregistre chaqune des statistiques avec des procedures.",
+        "speech4": "J'ai utilise Koa.js pour le serveur. Je suis rapidement tombe dans le \"callback hell\" et la mise a jour des async/await m'a permis de retravailler le code plus proprement.",
+        "speech5": "Etant deja habitue a Angular, j'ai trouve un template de dashboard avec Angular 2, j'ai plus tard admis qu'il serait plus rapide de tout faire soi-meme en React que d'essayer ameliorer le template existant.",
+        "speech6": "J'ai ajoute Socket.io pour recuperer des statistiques en temps reel, et utilise Auth0 pour l'authentification Google, Facebook Twitter and Steam. Echarts est la librairie que j'ai selectionnee pour afficher les graphiques.",
+        "speech7": "Une autre partie de l'aplication etait les equipes. Les statistiques par equipes etaient basees sur une moyenne des coequipiers. Enfin la recherche par statistique permettait de trouver l'equipier ideal."
       }
     },
     "ahlia": {

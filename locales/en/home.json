@@ -11,7 +11,8 @@
   },
   "about": {
     "title": "About me",
-    "speech1": " I love working with high performance frameworks that makes our lives easier, regardless of the language. I am thinking of stacks that can start and end a project quickly and efficiently while still being on the cutting edge.",
+    "speech0": "I like to take the time when it's needed. Particularly at the start of a project: what technologies to use, how will the database will look like, what frameworks can help achieve the client's needs in the timeframe.",
+    "speech1": "I love working with high performance frameworks, regardless of the language. I am thinking of stacks that can start and end a project quickly and efficiently while still being on the cutting edge.",
     "speech2": "Of course different needs mean different stacks, but with the state of tech right now and the increasing demand of doing things fast, Javascript is the Swiss army knife of the web development (among other things).",
     "contactTitle": "Contact details"
   },
@@ -88,7 +89,7 @@
         "speech3": "I choose MySQL because I was already used to it, after a while I found that MongoDB would have done the job better but it was not worth the time to change it.",
         "speech4": "I used Koa.js as the Node.js server; mainly because it was Express.js developers who made it. Also because it looked cleaner. I quickly fallen into callback hell and Node&apos;s update about async/await was such an improvement I reworked it with this new syntax.",
         "speech5": "Already used to Angular, I found a dashboard template in Angular 2 for the Front, but later admitted that a rework in React could actually help develop it faster. Completely new to react I read the man and never used Angular ever since.",
-        "speech6": " I added Socket.io to allow real time statistics across clients and Auth0 for Google, Facebook, Twitter and Steam authentications.",
+        "speech6": "I added Socket.io to allow real time statistics across clients and Auth0 for Google, Facebook, Twitter and Steam authentications.",
         "speech7": "Another part of the app was the teams, they had their own statistics averaging the players inside. Searching for a player by his statistics allowed the teams with a missing member to find the one they really needed."
       }
     },
