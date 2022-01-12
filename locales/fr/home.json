@@ -1,8 +1,8 @@
 {
   "header": {
-    "title": "Le code de ce site est sur mon ",
+    "title": "Le code source est sur mon ",
     "link": "github \uD83D\uDCBB",
-    "subtitle": "encore un ingénieur fullstack"
+    "subtitle": "et je m'appelle Clément Izard"
   },
   "nav": {
     "home": "Accueil",
@@ -14,7 +14,8 @@
     "title": "À propos",
     "speech0": "Développeur Fullstack depuis 7 ans, j'aime prendre le temps quand il le faut. Particulièrement au début d'un projet : quelles technologies utiliser; à quoi va ou vont ressembler les bases de données. Quels partenaires pouvons nous utiliser ? Que choisir avec le temps imparti ?",
     "speech1": "J'adore travailler avec des frameworks qui allient performances et facilité d'utilisation, peu importe le langage.",
-    "speech2": "À chaque besoin, sa technologie, son langage. Mais avec la demande grandissante de créer des produits rapidement, Javascript est le couteau suisse du développement web (entre autres).",
+    "speech2": "J'ai commencé à utiliser JavaScript il y a 9 ans avec jQuery pour Orange, j'ai ensuite découvert Node.js, Angular et MongoDB avec la MEAN Stack. React a dépassé mes espérances et Next.js est la cerise sur le gâteau.",
+    "speech3": "J'ai aussi une passion pour les bases de données graphiques. J'ai commencé par utiliser ArangoDB et je me suis tourné vers Neo4j pour la compatibilité avec GraphQL.",
     "contactTitle": "Contact"
   },
   "showcase": {

@@ -1,8 +1,8 @@
 {
   "header": {
-    "title": "This website's code is on my ",
+    "title": "This website source code is on ",
     "link": "github \uD83D\uDCBB",
-    "subtitle": "yet another fullstack engineer"
+    "subtitle": "and my name is Clément Izard"
   },
   "nav": {
     "home": "Home",
@@ -14,7 +14,8 @@
     "title": "About me",
     "speech0": "Fullstack developer for 7 years, I like to take time when it's needed. Particularly at the start of a project: what technologies to use, how the database(s) will look like, what frameworks can help achieve the client's needs in the timeframe.",
     "speech1": "I love working with high performance frameworks, regardless of the language. I am thinking of stacks that can start and end a project quickly and efficiently while still being on the cutting edge.",
-    "speech2": "Of course different needs mean different stacks, but with the state of tech right now and the increasing demand of doing things fast, Javascript is the Swiss army knife of the web development (among other things).",
+    "speech2": "I started to use JavaScript 9 years ago with jQuery for Orange, I then discovered Node.js, Angular and MongoDB with the MEAN Stack. React exceeded my expectations et Next.js is the icing on the cake.",
+    "speech3": "I also have a passion for graph databases. I started to use ArangoDB and I turned to Neo4j for it's compatibility with GraphQL.",
     "contactTitle": "Contact details"
   },
   "showcase": {
