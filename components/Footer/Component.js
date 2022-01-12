@@ -22,7 +22,7 @@ const Footer = () => {
           <a
             href="https://unsplash.com/@nasa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
           >
             NASA
           </a>
@@ -30,7 +30,7 @@ const Footer = () => {
           <a
             href="https://unsplash.com/s/photos/earth-at-night?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
           >
             Unsplash
           </a>
