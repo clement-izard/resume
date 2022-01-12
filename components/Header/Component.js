@@ -18,7 +18,7 @@ const Header = () => {
         layout="fill"
       />
       <Texts className="absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 text-center text-white">
-        <h1 className="mb-3 text-6xl font-bold">
+        <h1 className="mb-3 text-3xl md:text-6xl font-bold">
           {t('header.title')}
           <a
             href="https://github.com/clement-izard/resume"
@@ -30,7 +30,7 @@ const Header = () => {
             {t('header.link')}
           </a>
         </h1>
-        <sub className="text-2xl italic">{t('header.subtitle')}</sub>
+        <sub className=" text-xl md:text-2xl italic">{t('header.subtitle')}</sub>
       </Texts>
       <Arrow />
     </main>

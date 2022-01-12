@@ -4,7 +4,7 @@ export const styles = {
       fullBackground ? 'bg-zinc-900 shadow-xl' : ''
     }`,
   langContainer:
-    'absolute rounded overflow-hidden cursor-pointer left-[12px] top-[12px] md:left-6 md:top-[12px] translate-x-2/4 flex flex-col px-[8px] py-[8px]',
+    'absolute rounded overflow-hidden cursor-pointer left-[-8px] sm:left-[12px] top-[12px] md:left-6 md:top-[12px] translate-x-2/4 flex flex-col px-[8px] py-[8px]',
   flagContainer: 'mt-4',
   link:
     'text-zinc-400 mr-4 xs:mr-6 sm:mr-8 md:mr-12 text-sm sm:text-base md:text-lg cursor-pointer hover:underline hover:text-white',
