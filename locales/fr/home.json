@@ -1,107 +1,143 @@
 {
   "header": {
-    "title": "Salut, moi c'est {{name}}",
+    "title": "Le code de ce site est sur mon ",
+    "link": "github \uD83D\uDCBB",
     "subtitle": "encore un ingénieur fullstack"
   },
   "nav": {
     "home": "Accueil",
-    "about": "A propos",
+    "about": "À propos",
     "experiences": "Experiences",
     "contact": "Contact"
   },
   "about": {
-    "title": "A propos",
-    "speech0": "J'aime prendre le temps quand il le faut. Particulierement au debut d'un projet: Quelles technologies utiliser; a quoi va ressembler la ou les bases de donnees. Quels partenaire pouvons nous utiliser. Que choisir avec le temps imparti.",
-    "speech1": "J'adore travailler avec des frameworks qui allient performances et facilité d'utilisation, peu importe le language.",
-    "speech2": "Evidemment a chaque besoin sa technologie, son language. Mais avec la demande grandissante de créer des produits rapidement, Javascript est le couteau suisse du développement web (entre autres).",
+    "title": "À propos",
+    "speech0": "Développeur Fullstack depuis 7 ans, j'aime prendre le temps quand il le faut. Particulièrement au début d'un projet : quelles technologies utiliser; à quoi va ou vont ressembler les bases de données. Quels partenaires pouvons nous utiliser ? Que choisir avec le temps imparti ?",
+    "speech1": "J'adore travailler avec des frameworks qui allient performances et facilité d'utilisation, peu importe le langage.",
+    "speech2": "À chaque besoin, sa technologie, son langage. Mais avec la demande grandissante de créer des produits rapidement, Javascript est le couteau suisse du développement web (entre autres).",
     "contactTitle": "Contact"
   },
   "showcase": {
-    "featuresTitle": "Fonctionnalitées",
+    "featuresTitle": "Fonctionnalités",
     "medvice": {
       "title": "MIA Suite - Lead Front End",
-      "info": "Télétravail complet - 6 mois étendu a 21",
+      "info": "Télétravail complet - 6 mois étendus à 21",
       "details": "En charge de 3 applications web et une app mobile (React, React Native)",
       "companyInfos": {
-        "speech1": " est une startup dans le domaine de la santé. Son but est de faire gagner du temps aux docteurs d'une clinique en proposant au patient de remplir un formulaire sur leur telephone afin de mieux cibler le besoin du patient.",
-        "speech2": "Le docteur en se connectant via 2fa sur le dashboard, il peut visualiser les patients, leur résumé de questionnaire, envoyer une recommandation, un rendez-vous (physique ou audiovisuel) immediat ou planifié grace au calendrier.",
-        "speech3": "Les questionnaires sont créés dynamiquement avec l'éditeur et permets ainsi de s'adapter a tout types de cliniques.",
-        "speech4": "Un dashboard d'administrateur est utilise par Medvice pour gerer les souscriptions des cliniques"
+        "speech1": " est une startup dans le domaine de la santé. Son but est de faire gagner du temps aux docteurs d'une clinique en proposant au patient de remplir un formulaire sur leur téléphone afin de mieux cibler le besoin du patient.",
+        "speech2": "Le docteur en se connectant avec double authentification sur son espace, il peut visualiser les patients, leur résumé de questionnaire, envoyer une recommandation, un rendez-vous (physique ou audiovisuel) immédiat ou planifié grâce au calendrier.",
+        "speech3": "Les questionnaires sont créés dynamiquement avec l'éditeur et permettent ainsi de s'adapter à tout type de cliniques.",
+        "speech4": "Un panel d'administrateur est utilisé par Medvice pour gérer les souscriptions des cliniques."
       },
       "features": {
         "calendar": "Calendrier et planificateur",
-        "creator": "Createur de questionnaire",
+        "creator": "Créateur de questionnaire",
         "notif": "Notifications de bureau",
         "stt": "Reconnaissance vocale (mobile)",
         "map": "Carte et géolocalisation (mobile)",
+        "dl": "Deep Linking (mobile)",
         "rti": "Saisie de texte riche"
       }
     },
     "sii": {
-      "title": "SII / Hager - Front End consultant",
+      "title": "SII / Hager - Consultant Front End",
       "info": "Sur place - 7 mois",
-      "details": "Mise a jour d'une application de visualisation de l'énergie dans une maison (Knockout.js, Next.js)",
+      "details": "Mise à jour d'une application de visualisation de l'énergie dans une maison (Knockout.js, Next.js)",
       "companyInfos": {
         "speech0": "J'ai été embauché par ",
         "speech1": " en tant que consultant pour ",
         "speech2": ", un fournisseur de solutions électriques pour des infrastructures industrielles, tertiaires et résidentielles.",
-        "speech3": "Je faisais partie de l'equipe qui a modernise l'application de gestion d'énergie dans la maison: des panneaux solaires au chargeur de voiture electrique en passant par la batterie. Nous avious realisés quelques rajouts de fonctionnalitées avant de la reconstruire en utilisant Next.js et Swr."
+        "speech3": "Je faisais partie de l'équipe qui a modernisé l'application de gestion d'énergie dans la maison : des panneaux solaires au chargeur de voiture électrique en passant par la batterie. Nous avions réalisés quelques rajouts de fonctionnalités avant de la reconstruire en utilisant Next.js et Swr."
       }
     },
     "wyl": {
       "title": "Where you love - Lead Front End",
       "info": "Télétravail partiel - 2 ans",
-      "details": "Creation d'un générateur de questionnaire pour l'utilisateur final, ainsi qu'un panel administrateur pour agent immobilier et un espace client (React.js)",
+      "details": "Création d'un générateur de questionnaire pour l'utilisateur final, ainsi qu'un panel administrateur pour agent immobilier et un espace client (React.js)",
       "companyInfos": {
-        "speech0": " est une startup dans l'immobilier. En regroupant des données de localisation et en posant des questions sur le style de vie du client, WhereYouLove fait correspondre les meilleures maisons ou appartements avec les besoin de ses utilisateurs, leur faisant economiser plusieures heures de recherche.",
-        "speech1": "Les propriétaires et agents immobiliers ont leur propre panel d'administration pour gerer leurs annonces. A partir de la localisation WhereYouLove rajoute le nombre de cinemas, restaurants, salles de sport et écoles a proximité.",
-        "speech2": "Cette startup a été rachetée par une agence immobiliere en 2020."
+        "speech0": " est une startup dans l'immobilier. En regroupant des données de localisation et en posant des questions sur le style de vie du client, WhereYouLove fait correspondre les meilleures maisons ou appartements avec les besoins de ses utilisateurs, leur faisant économiser plusieurs heures de recherche.",
+        "speech1": "Les propriétaires et agents immobiliers ont leur propre panel d'administration pour gérer leurs annonces. À partir de la localisation WhereYouLove rajoute le nombre de cinémas, restaurants, salles de sport et écoles à proximité.",
+        "speech2": "Cette startup a été rachetée par une agence immobilière en 2020."
       }
     },
     "hickup": {
-      "title": "Hickup - Front end stagiaire",
+      "title": "Hickup - Stagiaire Front end",
       "info": "Sur place - 6 months - Stage",
-      "details": "Mis a jour plusieurs apps pour permettre un rebranding rapide. (Angular, Ionic)",
+      "details": "Mis à jour plusieurs applications tablette pour permettre un rebranding rapide. (Angular, Ionic)",
       "companyInfos": {
-        "speech0": "Hickup was specialized in creating tablet apps to sell a product. The app was sold to other companies marketing team to sell their product.",
-        "speech1": "My role was to make each app customizable through a dashboard. This way every app could be rebranded infinitely to sell any product from any brand.",
-        "speech2": "At the end of my internship, I trained the next intern to continue my work. ",
-        "link0": "The company was acquired by Showpad a year later."
+        "speech0": "Hickup était spécialisé dans la création d'applications mobiles destinées à vendre un produit. Ces applications sont ensuite vendues aux entreprises.",
+        "speech1": "Mon rôle était de rendre toutes les applications customisables à travers un panel d'administrateur. De cette manière, chaque application pouvait être restylisée à volonté pour vendre n'importe quel produit pour n'importe quelle entreprise.",
+        "speech2": "À la fin de mon stage, j'ai formé le stagiaire suivant pour qu'il puisse continuer mon travail.",
+        "link0": "L'entreprise fut rachetée par Showpad un an plus tard."
       }
     },
     "orange": {
-      "title": "Orange - Fullstack intern",
-      "info": "On site - 6 months - internship",
-      "details": "Creation of a seller rating dashboard based on their sells / complaints (Access, Php, SQL, jQuery)",
+      "title": "Orange - Stagiaire Fullstack",
+      "info": "Sur place - 6 mois - Stage",
+      "details": "Création d'un outil de classement de vendeurs en fonction de leurs ventes et réclamations (Access, Php, SQL, jQuery)",
       "companyInfos": {
-        "speech0": " is a telecom company, one of the largest in France. They also own stores to sell phones and internet packages. In these stores sellers are rated by their sells and complaints, I started the internal web app that rank them.",
-        "speech1": "I used Microsoft Access to create complex queries through a few databases. With aggregated data I used Php and jQuery to show them correctly in a dashboard. My work was then used to congratulate the best sellers with free holidays and take actions on the ones with the most complaints."
+        "speech0": " est une entreprise de télécommunications, l'une des plus grandes de France. Ils possèdent aussi des points de vente physiques pour proposer des téléphones et des forfaits internet. Dans ces magasins, les vendeurs sont classés en fonctions de leurs ventes et leurs plaintes, j'ai commencé l'application web interne qui les classes.",
+        "speech1": "J'ai utilisé Microsoft Access pour créer des requêtes complexes à travers plusieurs bases de données. Avec ces données j'ai utilisé Php et jQuery pour les visualiser dans un tableau. Mon travail a été utilise pour récompenser les meilleurs vendeurs avec des jours de congés gratuits et agir sur ceux qui ont le plus de réclamations."
       }
     },
     "epitech": {
-      "title": "Epitech - Etudiant",
+      "title": "Epitech - Étudiant",
       "info": "Diplome d'expert en informatique",
-      "details": "Creation of a web application for graduation project (MySQL, Koa.js, Socket.io, React)",
+      "details": "Création d'une application web pour projet de fin d'études (MySQL, Koa.js, Socket.io, React)",
       "companyInfos": {
-        "speech0": "Le projet de fin d'etudes que j'ai realise a ",
-        "speech1": " etait etale sur deux ans et demi en plus des modules classiques, de la troisieme a la cinquieme annee. Ce projet etait destine aux joueurs Esport competetifs.",
-        "speech2": "Il s'agissais d'un dashboard qui donnais les statistiques dans le temps d'un joueur sur un jeu precis. J'ai commence a travailler avec l'API de Steam pour recuperer les donnees de Counter Strike - Global Offensive.",
-        "speech3": "Steam ne proposais pas de donnees dans le temps, uniquement a l'instant de la requete. Pour creer un graphique j'ai utilise MySQL comme base de donnees et enregistre chaqune des statistiques avec des procedures.",
-        "speech4": "J'ai utilise Koa.js pour le serveur. Je suis rapidement tombe dans le \"callback hell\" et la mise a jour des async/await m'a permis de retravailler le code plus proprement.",
-        "speech5": "Etant deja habitue a Angular, j'ai trouve un template de dashboard avec Angular 2, j'ai plus tard admis qu'il serait plus rapide de tout faire soi-meme en React que d'essayer ameliorer le template existant.",
-        "speech6": "J'ai ajoute Socket.io pour recuperer des statistiques en temps reel, et utilise Auth0 pour l'authentification Google, Facebook Twitter and Steam. Echarts est la librairie que j'ai selectionnee pour afficher les graphiques.",
-        "speech7": "Une autre partie de l'aplication etait les equipes. Les statistiques par equipes etaient basees sur une moyenne des coequipiers. Enfin la recherche par statistique permettait de trouver l'equipier ideal."
+        "speech0": "Le projet de fin d'études que j'ai réalisé à ",
+        "speech1": " était étalé sur deux ans et demi en plus des modules classiques, de la troisième a la cinquième année. Ce projet était destine aux joueurs Esport compétitifs.",
+        "speech2": "Il s'agissait d'un dashboard qui donnais les statistiques dans le temps d'un joueur sur un jeu précis. J'ai commencé à travailler avec l'API de Steam pour récupérer les données de Counter Strike - Global Offensive.",
+        "speech3": "Steam ne proposait pas de données dans le temps, uniquement à l'instant de la requête. Pour créer un graphique, j'ai utilisé MySQL comme base de données et enregistre chacune des statistiques avec des procédures.",
+        "speech4": "J'ai utilisé Koa.js pour le serveur. Je suis rapidement tombé dans le \"callback hell\" et la mise à jour des async/await m'a permis de retravailler le code plus proprement.",
+        "speech5": "Étant déjà habitue à Angular, j'ai trouvé un template de dashboard avec Angular 2, j'ai plus tard admis qu'il serait plus rapide de tout faire soi-même en React que d'améliorer le template existant.",
+        "speech6": "J'ai ajouté Socket.io pour récupérer des statistiques en temps réel, et utilise Auth0 pour l'authentification Google, Facebook Twitter and Steam. Echarts est la librairie que j'ai sélectionnée pour afficher les graphiques.",
+        "speech7": "Une autre partie de l'application était les équipes. Les statistiques par équipes étaient basées sur une moyenne des coéquipiers. Enfin, la recherche par statistique permettait de trouver l'équipier idéal."
       }
     },
     "ahlia": {
-      "title": "Ahlia University - Student",
-      "info": "9 months studies in a foreign country",
-      "details": "Various modules: from Bioinformatics to Arabic class",
+      "title": "Ahlia University - Étudiant",
+      "info": "Études dans un pays étranger pendant 9 mois",
+      "details": "Modules variés : de Bio-informatique aux cours d'arabe",
       "companyInfos": {
-        "speech0": "For the fourth year of studies, Epitech require the students to go to a foreign country and validate modules there. Many of the partner universities are located in Europe or in North America.",
-        "speech1": "I choose to go to ",
-        "speech2": " in Bahrain because they had a Bioinformatics module which was very rare, only 2 universities offered it. It was also very different from any country in Europe or North America, a way to actually see something else and have some real adventure."
+        "speech0": "Pour la quatrième année d'études Epitech demande aux étudiants d'aller étudier dans une université étrangère et de valider un certain nombre de modules. La majorité des universités partenaires se trouvent en Europe ou en Amérique du Nord.",
+        "speech1": "J'ai choisi d'aller à ",
+        "speech2": " au Bahrein, parce qu'il y avait une classe de Bio-informatique ce qui était très rare, seulement deux universités le proposait. C'était aussi très différent de tous les autres pays en Europe ou en Amérique du Nord, une manière de partir à l'aventure pour visiter quelque chose de vraiment différent."
       }
+    }
+  },
+  "contact": {
+    "title": "Mon profil vous intéresse ? Envoyez-moi un message!",
+    "form": {
+      "name": {
+        "label": "Nom",
+        "placeholder": "Votre nom"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Votre email",
+        "error": "Veuillez écrire une adresse valide."
+      },
+      "subject": {
+        "label": "Sujet",
+        "placeholder": "Un projet très intéressant !",
+        "error": "Le sujet est requis."
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Votre message",
+        "error": "Le message est requis."
+      }
+    },
+    "submit": "Envoyer",
+    "success": "Bien reçu !"
+  },
+  "footer": {
+    "github": "Voir mon code source",
+    "made": "Fait avec ☕",
+    "picture": {
+      "by": "Photo de la ",
+      "on": " sur "
     }
   }
 }

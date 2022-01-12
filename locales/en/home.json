@@ -1,6 +1,7 @@
 {
   "header": {
-    "title": "Hi, I'm {{name}}",
+    "title": "This website's code is on my ",
+    "link": "github \uD83D\uDCBB",
     "subtitle": "yet another fullstack engineer"
   },
   "nav": {
@@ -11,7 +12,7 @@
   },
   "about": {
     "title": "About me",
-    "speech0": "I like to take the time when it's needed. Particularly at the start of a project: what technologies to use, how will the database will look like, what frameworks can help achieve the client's needs in the timeframe.",
+    "speech0": "Fullstack developer for 7 years, I like to take time when it's needed. Particularly at the start of a project: what technologies to use, how the database(s) will look like, what frameworks can help achieve the client's needs in the timeframe.",
     "speech1": "I love working with high performance frameworks, regardless of the language. I am thinking of stacks that can start and end a project quickly and efficiently while still being on the cutting edge.",
     "speech2": "Of course different needs mean different stacks, but with the state of tech right now and the increasing demand of doing things fast, Javascript is the Swiss army knife of the web development (among other things).",
     "contactTitle": "Contact details"
@@ -34,6 +35,7 @@
         "notif": "Desktop notifications",
         "stt": "Speech to text (mobile)",
         "map": "Geolocation & maps (mobile)",
+        "dl": "Deep Linking (mobile)",
         "rti": "Rich text input"
       }
     },
@@ -102,6 +104,40 @@
         "speech1": "I choose to go to ",
         "speech2": " in Bahrain because they had a Bioinformatics module which was very rare, only 2 universities offered it. It was also very different from any country in Europe or North America, a way to actually see something else and have some real adventure."
       }
+    }
+  },
+  "contact": {
+    "title": "Want to hire me? Let&lsquo;s have a chat!",
+    "form": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Your name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Your email",
+        "error": "Please enter a valid email"
+      },
+      "subject": {
+        "label": "Subject",
+        "placeholder": "A very exiting project",
+        "error": "Subject is required"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Your message",
+        "error": "Message is required"
+      }
+    },
+    "submit": "Submit",
+    "success": "Successfully sent!"
+  },
+  "footer": {
+    "github": "Check this website's code on my repository",
+    "made": "Made with ☕",
+    "picture": {
+      "by": "Photo by ",
+      "on": " on "
     }
   }
 }

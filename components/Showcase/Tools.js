@@ -39,6 +39,7 @@ export const experiences = [
           <li className="mb-0.5">- {t('showcase.medvice.features.notif')}</li>
           <li className="mb-0.5">- {t('showcase.medvice.features.stt')}</li>
           <li className="mb-0.5">- {t('showcase.medvice.features.map')}</li>
+          <li className="mb-0.5">- {t('showcase.medvice.features.dl')}</li>
           <li className="mb-0.5">- {t('showcase.medvice.features.rti')}</li>
           <li className="">
             -{' '}

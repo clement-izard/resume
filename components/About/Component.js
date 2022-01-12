@@ -21,6 +21,7 @@ const About = () => {
         </ImageContainer>
         <AboutMe className="mt-6 lg:mt-0">
           <h2 className="pb-4 text-white font-semibold">{t('about.title')}</h2>
+          <p className="text-zinc-400 mb-6">{t('about.speech0')}</p>
           <p className="text-zinc-400 mb-6">{t('about.speech1')}</p>
           <p className="text-zinc-400">{t('about.speech2')}</p>
         </AboutMe>

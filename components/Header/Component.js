@@ -18,7 +18,18 @@ const Header = () => {
         layout="fill"
       />
       <Texts className="absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 text-center text-white">
-        <h1 className="mb-3 text-6xl font-bold">{t('header.title', { name: 'Clement' })}</h1>
+        <h1 className="mb-3 text-6xl font-bold">
+          {t('header.title')}
+          <a
+            href="https://github.com/clement-izard/resume"
+            target="_blank"
+            rel="noreferrer"
+            onClick={e => e.stopPropagation()}
+            style={{ textDecoration: 'underline' }}
+          >
+            {t('header.link')}
+          </a>
+        </h1>
         <sub className="text-2xl italic">{t('header.subtitle')}</sub>
       </Texts>
       <Arrow />
