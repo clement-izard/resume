@@ -56,7 +56,7 @@
       "details": "Created the questionnaires generator for the end user along with the administrator and real estate agent dashboards (React.js)",
       "companyInfos": {
         "speech0": " is a real estate startup. By regrouping places from different sources and asking lifestyle questions to a user, WhereYouLove matches him with the most fitting houses or apartments; saving hours of searching by himself.",
-        "speech1": "Home owners have their own dashboard to customize their offers. Based on the location, WhereYouLove add the number of theatre, fast-food and schools nearby. Each result have their own score based on the user&apos;s choice.",
+        "speech1": "Home owners have their own dashboard to customize their offers. Based on the location, WhereYouLove add the number of theatre, fast-food and schools nearby. Each result have their own score based on the user's choice.",
         "speech2": "This startup has been bought by a real estate company in 2020."
       }
     },
@@ -89,7 +89,7 @@
         "speech1": "started in my third year and finished at the very end of my fifth, in parallel of other modules. This project was meant for gamers, more particularly competitive ones.",
         "speech2": "It was a dashboard where you could find players statistics for a specific game. I started with Counter Strike - Global Offensive. Steam was not providing past statistics, only the current ones. The only way to draw a graph was to refresh player data and save it in my database.",
         "speech3": "I choose MySQL because I was already used to it, after a while I found that MongoDB would have done the job better but it was not worth the time to change it.",
-        "speech4": "I used Koa.js as the Node.js server; mainly because it was Express.js developers who made it. Also because it looked cleaner. I quickly fallen into callback hell and Node&apos;s update about async/await was such an improvement I reworked it with this new syntax.",
+        "speech4": "I used Koa.js as the Node.js server; mainly because it was Express.js developers who made it. Also because it looked cleaner. I quickly fallen into callback hell and Node's update about async/await was such an improvement I reworked it with this new syntax.",
         "speech5": "Already used to Angular, I found a dashboard template in Angular 2 for the Front, but later admitted that a rework in React could actually help develop it faster. Completely new to react I read the man and never used Angular ever since.",
         "speech6": "I added Socket.io to allow real time statistics across clients and Auth0 for Google, Facebook, Twitter and Steam authentications.",
         "speech7": "Another part of the app was the teams, they had their own statistics averaging the players inside. Searching for a player by his statistics allowed the teams with a missing member to find the one they really needed."
@@ -107,7 +107,7 @@
     }
   },
   "contact": {
-    "title": "Want to hire me? Let&lsquo;s have a chat!",
+    "title": "Want to hire me? Let's have a chat!",
     "form": {
       "name": {
         "label": "Name",

@@ -42,7 +42,7 @@ const Contact = () => {
         .email(t('contact.form.email.error'))
         .required(t('contact.form.email.error')),
       subject: Yup.string().required(t('contact.form.subject.error')),
-      message: Yup.string().required(t('contact.form.email.error')),
+      message: Yup.string().required(t('contact.form.message.error')),
     }),
     onSubmit: handleSubmit,
   });
