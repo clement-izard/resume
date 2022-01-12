@@ -60,7 +60,7 @@ const Gallery = ({ images, ...props }) => {
           e.stopPropagation();
           paginate(1);
         }}
-        className="absolute bg-white w-10 h-10 flex justify-center items-center select-none cursor-pointer font-bold text-lg"
+        className="absolute bg-black w-10 h-10 flex justify-center items-center select-none cursor-pointer font-bold text-lg text-white"
       >
         {'‣'}
       </Arrow>
@@ -70,7 +70,7 @@ const Gallery = ({ images, ...props }) => {
           e.stopPropagation();
           paginate(-1);
         }}
-        className="absolute bg-white w-10 h-10 flex justify-center items-center select-none cursor-pointer font-bold text-lg"
+        className="absolute bg-black w-10 h-10 flex justify-center items-center select-none cursor-pointer font-bold text-lg text-white"
       >
         {'‣'}
       </Arrow>

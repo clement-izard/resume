@@ -38,7 +38,7 @@ export const styles = {
     block
     w-full
     px-3 py-1.5
-    md:mb-8
+    md:mb-1
     text-base
     font-normal
     text-zinc-400
@@ -49,7 +49,7 @@ export const styles = {
     hover:shadow-[3px_3px_18px_0_rgba(0,0,0,0.9)]
     focus:text-white focus:bg-zinc-800 focus:border-zinc-900 focus:outline-none focus:shadow-[3px_3px_18px_0_rgba(0,0,0,0.9)]
   `,
-  error: 'text-sm text-gray-500 mt-1 ml-1 text-red-600',
+  error: 'text-sm text-gray-500 mt-1 ml-1 mb-4 text-red-600',
   button: `
     px-6 py-2.5
     my-2 mt-8

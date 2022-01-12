@@ -67,9 +67,9 @@ const Contact = () => {
           value={formik.values.name}
           disabled={success}
         />
-        {(formik.touched.name || formik.submitCount) && formik.errors.name ? (
-          <p className={styles.error}>{formik.errors.name}</p>
-        ) : null}
+        <p className={styles.error}>
+          {formik.submitCount && formik.errors.name ? formik.errors.name : null}
+        </p>
         <label htmlFor="email" className={styles.label}>
           {t('contact.form.email.label')} *
         </label>
@@ -84,9 +84,9 @@ const Contact = () => {
           placeholder={t('contact.form.email.placeholder')}
           disabled={success}
         />
-        {(formik.touched.email || formik.submitCount) && formik.errors.email ? (
-          <p className={styles.error}>{formik.errors.email}</p>
-        ) : null}
+        <p className={styles.error}>
+          {formik.submitCount && formik.errors.email ? formik.errors.email : null}
+        </p>
         <label htmlFor="subject" className={styles.label}>
           {t('contact.form.subject.label')} *
         </label>
@@ -101,9 +101,9 @@ const Contact = () => {
           placeholder={t('contact.form.subject.placeholder')}
           disabled={success}
         />
-        {(formik.touched.subject || formik.submitCount) && formik.errors.subject ? (
-          <p className={styles.error}>{formik.errors.subject}</p>
-        ) : null}
+        <p className={styles.error}>
+          {formik.submitCount && formik.errors.subject ? formik.errors.subject : null}
+        </p>
         <label htmlFor="message" className={styles.label}>
           {t('contact.form.message.label')} *
         </label>
@@ -118,9 +118,9 @@ const Contact = () => {
           onBlur={formik.handleBlur}
           value={formik.values.message}
         />
-        {(formik.touched.message || formik.submitCount) && formik.errors.message ? (
-          <p className={styles.error}>{formik.errors.message}</p>
-        ) : null}
+        <p className={styles.error}>
+          {formik.submitCount && formik.errors.message ? formik.errors.message : null}
+        </p>
         {formik.isSubmitting ? (
           <Loader />
         ) : success ? (
