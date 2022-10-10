@@ -1,8 +1,8 @@
 {
   "header": {
-    "title": "This website's code is on my ",
+    "title": "This website source code is on ",
     "link": "github \uD83D\uDCBB",
-    "subtitle": "yet another fullstack engineer"
+    "subtitle": "yet another Frontend engineer"
   },
   "nav": {
     "home": "Home",
@@ -12,9 +12,9 @@
   },
   "about": {
     "title": "About me",
-    "speech0": "Fullstack developer for 7 years, I like to take time when it's needed. Particularly at the start of a project: what technologies to use, how the database(s) will look like, what frameworks can help achieve the client's needs in the timeframe.",
-    "speech1": "I love working with high performance frameworks, regardless of the language. I am thinking of stacks that can start and end a project quickly and efficiently while still being on the cutting edge.",
-    "speech2": "Of course different needs mean different stacks, but with the state of tech right now and the increasing demand of doing things fast, Javascript is the Swiss army knife of the web development (among other things).",
+    "speech0": "During my student years I started using JavaScript with jQuery for Orange, then I discovered Node, Angular and MongoDB with the MEAN Stack.",
+    "speech1": "Later I discovered React and made the decision to leave Angular, until we meet again.",
+    "speech2": "I also developed a passion for exotic databases. I started by using ArangoDB and turned to Neo4j for its symbiosis with GraphQL.",
     "contactTitle": "Contact details"
   },
   "showcase": {
@@ -25,7 +25,7 @@
       "details": "In charge of 3 web apps and a mobile app (React, React Native)",
       "companyInfos": {
         "speech1": " is a health startup that aim to save doctors time by allowing the patients to fill complaints on their phone before going to the clinic.",
-        "speech2": "The doctor can send an advice and determine what is the best solution for the patient: a visit or an audiovisual call either scheduled or immediate. He can also manage his calendar by setting holidays and breaks during the day.",
+        "speech2": "Doctors can send advices and determine what is the best solution for the patient: a visit or an audiovisual call either scheduled or immediate. They can also manage their calendar by setting holidays and breaks during the day.",
         "speech3": "Complaints are dynamically created by the clinic to fit their needs, assistants can manage doctors schedule along with other actions related to the patients.",
         "speech4": "Medvice use an administrator dashboard to manage subscribed clinics."
       },
@@ -92,7 +92,8 @@
         "speech4": "I used Koa.js as the Node.js server; mainly because it was Express.js developers who made it. Also because it looked cleaner. I quickly fallen into callback hell and Node's update about async/await was such an improvement I reworked it with this new syntax.",
         "speech5": "Already used to Angular, I found a dashboard template in Angular 2 for the Front, but later admitted that a rework in React could actually help develop it faster. Completely new to react I read the man and never used Angular ever since.",
         "speech6": "I added Socket.io to allow real time statistics across clients and Auth0 for Google, Facebook, Twitter and Steam authentications.",
-        "speech7": "Another part of the app was the teams, they had their own statistics averaging the players inside. Searching for a player by his statistics allowed the teams with a missing member to find the one they really needed."
+        "speech7": "Another part of the app was the teams, they had their own statistics averaging the players inside. Searching for a player by his statistics allowed the teams with a missing member to find the one they really needed.",
+        "speech8": "The ultimate goal was to be able to predict player performance based on existing data."
       }
     },
     "ahlia": {
