@@ -1,8 +1,8 @@
 {
   "header": {
-    "title": "Le code source est sur mon ",
+    "title": "Le code de ce site est sur mon ",
     "link": "github \uD83D\uDCBB",
-    "subtitle": "et je m'appelle Clément Izard"
+    "subtitle": "encore un ingénieur Frontend"
   },
   "nav": {
     "home": "Accueil",
@@ -12,23 +12,22 @@
   },
   "about": {
     "title": "À propos",
-    "speech0": "Développeur Fullstack depuis 7 ans, j'aime prendre le temps quand il le faut. Particulièrement au début d'un projet : quelles technologies utiliser; à quoi va ou vont ressembler les bases de données. Quels partenaires pouvons nous utiliser ? Que choisir avec le temps imparti ?",
-    "speech1": "J'adore travailler avec des frameworks qui allient performances et facilité d'utilisation, peu importe le langage.",
-    "speech2": "J'ai commencé à utiliser JavaScript il y a 9 ans avec jQuery pour Orange, j'ai ensuite découvert Node.js, Angular et MongoDB avec la MEAN Stack. React a dépassé mes espérances et Next.js est la cerise sur le gâteau.",
-    "speech3": "J'ai aussi une passion pour les bases de données graphiques. J'ai commencé par utiliser ArangoDB et je me suis tourné vers Neo4j pour la compatibilité avec GraphQL.",
+    "speech0": "Pendant mes années d'études j'ai commencé à utiliser JavaScript avec jQuery pour Orange, j'ai ensuite découvert Node, Angular et MongoDB avec la MEAN Stack.",
+    "speech1": "Plus tard j'ai decouvert React et pris la décision de quitter Angular, jusqu'à notre prochaine rencontre.",
+    "speech2": "J'ai aussi développé une passion pour les bases de données exotiques. J'ai commencé par utiliser ArangoDB et je me suis tourné vers Neo4j pour sa symbiose avec GraphQL.",
     "contactTitle": "Contact"
   },
   "showcase": {
     "featuresTitle": "Fonctionnalités",
     "medvice": {
-      "title": "MIA Suite - Lead Front End",
-      "info": "Télétravail complet - 6 mois étendus à 21",
+      "title": "MIA Suite - Lead Frontend",
+      "info": "Télétravail complet - 2 ans",
       "details": "En charge de 3 applications web et une app mobile (React, React Native)",
       "companyInfos": {
         "speech1": " est une startup dans le domaine de la santé. Son but est de faire gagner du temps aux docteurs d'une clinique en proposant au patient de remplir un formulaire sur leur téléphone afin de mieux cibler le besoin du patient.",
-        "speech2": "Le docteur en se connectant avec double authentification sur son espace, il peut visualiser les patients, leur résumé de questionnaire, envoyer une recommandation, un rendez-vous (physique ou audiovisuel) immédiat ou planifié grâce au calendrier.",
+        "speech2": "Le docteur en se connectant avec double authentification sur son espace peut visualiser les patients, leurs résumés de questionnaires, envoyer un conseil, créer un rendez-vous (physique ou audiovisuel) immédiat ou planifié grâce au calendrier.",
         "speech3": "Les questionnaires sont créés dynamiquement avec l'éditeur et permettent ainsi de s'adapter à tout type de cliniques.",
-        "speech4": "Un panel d'administrateur est utilisé par Medvice pour gérer les souscriptions des cliniques."
+        "speech4": "Un panel administrateur est utilisé par Medvice pour gérer les souscriptions des cliniques."
       },
       "features": {
         "calendar": "Calendrier et planificateur",
@@ -41,34 +40,34 @@
       }
     },
     "sii": {
-      "title": "SII / Hager - Consultant Front End",
+      "title": "SII / Hager - Consultant Frontend",
       "info": "Sur place - 7 mois",
-      "details": "Mise à jour d'une application de visualisation de l'énergie dans une maison (Knockout.js, Next.js)",
+      "details": "Mise à jour d'une application de visualisation de l'énergie dans une maison (Knockout.js, React.js)",
       "companyInfos": {
         "speech0": "J'ai été embauché par ",
         "speech1": " en tant que consultant pour ",
         "speech2": ", un fournisseur de solutions électriques pour des infrastructures industrielles, tertiaires et résidentielles.",
-        "speech3": "Je faisais partie de l'équipe qui a modernisé l'application de gestion d'énergie dans la maison : des panneaux solaires au chargeur de voiture électrique en passant par la batterie. Nous avions réalisés quelques rajouts de fonctionnalités avant de la reconstruire en utilisant Next.js et Swr."
+        "speech3": "J'ai fait partie de l'équipe qui a modernisé l'application de gestion d'énergie dans une maison: des panneaux solaires au chargeur de voiture électrique en passant par la batterie. Nous avons réalisés quelques rajouts de fonctionnalités avant de la reconstruire en utilisant React.js."
       }
     },
     "wyl": {
-      "title": "Where you love - Lead Front End",
+      "title": "Where you love - Lead Frontend",
       "info": "Télétravail partiel - 2 ans",
-      "details": "Création d'un générateur de questionnaire pour l'utilisateur final, ainsi qu'un panel administrateur pour agent immobilier et un espace client (React.js)",
+      "details": "Réalisation d'un générateur de questionnaire, un panel administrateur pour agent immobilier et un espace client (React.js)",
       "companyInfos": {
-        "speech0": " est une startup dans l'immobilier. En regroupant des données de localisation et en posant des questions sur le style de vie du client, WhereYouLove fait correspondre les meilleures maisons ou appartements avec les besoins de ses utilisateurs, leur faisant économiser plusieurs heures de recherche.",
-        "speech1": "Les propriétaires et agents immobiliers ont leur propre panel d'administration pour gérer leurs annonces. À partir de la localisation WhereYouLove rajoute le nombre de cinémas, restaurants, salles de sport et écoles à proximité.",
+        "speech0": " est une startup dans l'immobilier. En regroupant des données de localisation et en posant des questions sur le style de vie en plus des questions classiques, WhereYouLove fait correspondre les meilleures maisons ou appartements avec les besoins de ses utilisateurs, leur faisant économiser plusieurs heures de recherche.",
+        "speech1": "Les propriétaires et agents immobiliers ont leur propre panel d'administration pour gérer leurs annonces. À partir de la localisation du bien WhereYouLove rajoute le nombre de cinémas, restaurants, salles de sport et écoles à proximité.",
         "speech2": "Cette startup a été rachetée par une agence immobilière en 2020."
       }
     },
     "hickup": {
       "title": "Hickup - Stagiaire Front end",
       "info": "Sur place - 6 months - Stage",
-      "details": "Mis à jour plusieurs applications tablette pour permettre un rebranding rapide. (Angular, Ionic)",
+      "details": "Mise à jour de plusieurs applications tablette pour permettre un rebranding rapide. (Angular, Ionic)",
       "companyInfos": {
-        "speech0": "Hickup était spécialisé dans la création d'applications mobiles destinées à vendre un produit. Ces applications sont ensuite vendues aux entreprises.",
+        "speech0": "Hickup était spécialisé dans la création d'applications mobiles destinées à vendre un produit. Ces applications sont ensuite vendues au pole marketing des entreprises.",
         "speech1": "Mon rôle était de rendre toutes les applications customisables à travers un panel d'administrateur. De cette manière, chaque application pouvait être restylisée à volonté pour vendre n'importe quel produit pour n'importe quelle entreprise.",
-        "speech2": "À la fin de mon stage, j'ai formé le stagiaire suivant pour qu'il puisse continuer mon travail.",
+        "speech2": "À la fin de mon stage j'ai formé le stagiaire suivant pour qu'il puisse continuer mon travail.",
         "link0": "L'entreprise fut rachetée par Showpad un an plus tard."
       }
     },
@@ -77,8 +76,8 @@
       "info": "Sur place - 6 mois - Stage",
       "details": "Création d'un outil de classement de vendeurs en fonction de leurs ventes et réclamations (Access, Php, SQL, jQuery)",
       "companyInfos": {
-        "speech0": " est une entreprise de télécommunications, l'une des plus grandes de France. Ils possèdent aussi des points de vente physiques pour proposer des téléphones et des forfaits internet. Dans ces magasins, les vendeurs sont classés en fonctions de leurs ventes et leurs plaintes, j'ai commencé l'application web interne qui les classes.",
-        "speech1": "J'ai utilisé Microsoft Access pour créer des requêtes complexes à travers plusieurs bases de données. Avec ces données j'ai utilisé Php et jQuery pour les visualiser dans un tableau. Mon travail a été utilise pour récompenser les meilleurs vendeurs avec des jours de congés gratuits et agir sur ceux qui ont le plus de réclamations."
+        "speech0": " est l'une des plus grandes entreprises de télécommunications en France. Elle possède aussi des points de vente physiques pour proposer des téléphones et des forfaits internet. Dans ces boutiques les vendeurs sont classés en fonctions de leurs ventes et les reclamations associées. J'ai commencé l'outil interne qui permet de visualiser et classer ces vendeurs.",
+        "speech1": "Utilisation de Microsoft Access pour créer des requêtes complexes à travers plusieurs bases de données. La visualisation de ces données a été réalisée avec Php et jQuery. Mon travail a été utilisé pour récompenser les meilleurs vendeurs avec des jours de congés gratuits et agir sur ceux avec le plus de réclamations."
       }
     },
     "epitech": {
@@ -87,36 +86,37 @@
       "details": "Création d'une application web pour projet de fin d'études (MySQL, Koa.js, Socket.io, React)",
       "companyInfos": {
         "speech0": "Le projet de fin d'études que j'ai réalisé à ",
-        "speech1": " était étalé sur deux ans et demi en plus des modules classiques, de la troisième a la cinquième année. Ce projet était destine aux joueurs Esport compétitifs.",
-        "speech2": "Il s'agissait d'un dashboard qui donnais les statistiques dans le temps d'un joueur sur un jeu précis. J'ai commencé à travailler avec l'API de Steam pour récupérer les données de Counter Strike - Global Offensive.",
-        "speech3": "Steam ne proposait pas de données dans le temps, uniquement à l'instant de la requête. Pour créer un graphique, j'ai utilisé MySQL comme base de données et enregistre chacune des statistiques avec des procédures.",
-        "speech4": "J'ai utilisé Koa.js pour le serveur. Je suis rapidement tombé dans le \"callback hell\" et la mise à jour des async/await m'a permis de retravailler le code plus proprement.",
-        "speech5": "Étant déjà habitue à Angular, j'ai trouvé un template de dashboard avec Angular 2, j'ai plus tard admis qu'il serait plus rapide de tout faire soi-même en React que d'améliorer le template existant.",
-        "speech6": "J'ai ajouté Socket.io pour récupérer des statistiques en temps réel, et utilise Auth0 pour l'authentification Google, Facebook Twitter and Steam. Echarts est la librairie que j'ai sélectionnée pour afficher les graphiques.",
-        "speech7": "Une autre partie de l'application était les équipes. Les statistiques par équipes étaient basées sur une moyenne des coéquipiers. Enfin, la recherche par statistique permettait de trouver l'équipier idéal."
+        "speech1": " était étalé sur deux ans et demi en plus des modules classiques, de la troisième a la cinquième année. Ce projet était destiné aux joueurs Esport compétitifs.",
+        "speech2": "Il s'agissait d'un dashboard qui affichais les statistiques dans le temps d'un joueur sur un jeu précis. J'ai commencé par travailler avec l'API de Steam pour récupérer les données des joueurs sur le jeu: Counter Strike - Global Offensive.",
+        "speech3": "Steam ne proposait pas de données dans le temps, uniquement à l'instant de la requête. Pour créer un graphique j'ai utilisé MySQL comme base de données et enregistré chacune des statistiques avec des procédures.",
+        "speech4": "J'ai utilisé Koa.js pour le serveur et je suis rapidement tombé dans le \"callback hell\". La mise à jour de Node portant sur les async/await m'a permis de retravailler le code plus proprement.",
+        "speech5": "Étant déjà habitué à Angular, j'ai trouvé un template de dashboard avec Angular 2, j'ai plus tard admis qu'il serait plus rapide de tout faire soi-même en React que d'améliorer le template existant.",
+        "speech6": "J'ai ajouté Socket.io pour récupérer les statistiques en temps réel et utilisé Auth0 pour l'authentification Google, Facebook Twitter et Steam. Afin de visualiser les donnees dans des graphiques j'ai utilisé la librairie Echarts que je conseille fortement.",
+        "speech7": "Une autre grande partie de l'application était les équipes. Les statistiques par équipes étaient basées sur une moyenne de plusieurs joueurs. Enfin la recherche par statistique permettait de trouver l'équipier idéal.",
+        "speech8": "L'objectif à terme était de pouvoir prédire les performances des joueurs en fonction des données existantes."
       }
     },
     "ahlia": {
       "title": "Ahlia University - Étudiant",
       "info": "Études dans un pays étranger pendant 9 mois",
-      "details": "Modules variés : de Bio-informatique aux cours d'arabe",
+      "details": "Modules variés: de Bio-informatique aux cours d'arabe",
       "companyInfos": {
         "speech0": "Pour la quatrième année d'études Epitech demande aux étudiants d'aller étudier dans une université étrangère et de valider un certain nombre de modules. La majorité des universités partenaires se trouvent en Europe ou en Amérique du Nord.",
         "speech1": "J'ai choisi d'aller à ",
-        "speech2": " au Bahrein, parce qu'il y avait une classe de Bio-informatique ce qui était très rare, seulement deux universités le proposait. C'était aussi très différent de tous les autres pays en Europe ou en Amérique du Nord, une manière de partir à l'aventure pour visiter quelque chose de vraiment différent."
+        "speech2": " au Bahreïn, parce qu'il y avait une classe de Bio-informatique ce qui était très rare, seulement deux universités le proposait. C'était aussi très différent de tous les autres pays en Europe ou en Amérique du Nord, une manière de partir à l'aventure pour visiter quelque chose de vraiment différent."
       }
     }
   },
   "contact": {
-    "title": "Mon profil vous intéresse ? Envoyez-moi un message!",
+    "title": "Mon profil vous intéresse ?",
     "form": {
       "name": {
         "label": "Nom",
-        "placeholder": "Votre nom"
+        "placeholder": ""
       },
       "email": {
         "label": "Email",
-        "placeholder": "Votre email",
+        "placeholder": "",
         "error": "Veuillez écrire une adresse valide."
       },
       "subject": {

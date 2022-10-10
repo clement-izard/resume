@@ -7,7 +7,7 @@ export const experiences = [
       width: 150,
       height: 50,
     },
-    date: '2020-2021',
+    date: '2020-2022',
     companyInfos: t => (
       <>
         <p>
@@ -180,12 +180,12 @@ export const experiences = [
     date: '2015-2016',
     companyInfos: t => (
       <>
-        <p>{t('showcase.sii.companyInfos.speech0')}</p>
+        <p>{t('showcase.hickup.companyInfos.speech0')}</p>
         <br />
-        <p>{t('showcase.sii.companyInfos.speech1')}</p>
+        <p>{t('showcase.hickup.companyInfos.speech1')}</p>
         <br />
         <p>
-          {t('showcase.sii.companyInfos.speech2')}
+          {t('showcase.hickup.companyInfos.speech2')}
           <a
             href="https://www.crunchbase.com/acquisition/showpad-acquires-hickup--3912eaf1"
             target="_blank"
@@ -193,7 +193,7 @@ export const experiences = [
             onClick={e => e.stopPropagation()}
             style={{ textDecoration: 'underline' }}
           >
-            {t('showcase.sii.companyInfos.link0')}
+            {t('showcase.hickup.companyInfos.link0')}
           </a>
         </p>
       </>
@@ -270,6 +270,8 @@ export const education = [
         <p>{t('showcase.epitech.companyInfos.speech6')}</p>
         <br />
         <p>{t('showcase.epitech.companyInfos.speech7')}</p>
+        <br />
+        <p>{t('showcase.epitech.companyInfos.speech8')}</p>
       </>
     ),
   },
