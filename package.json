@@ -7,6 +7,9 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "engines": {
+    "node": "14.19.1"
+  },
   "dependencies": {
     "formik": "^2.2.9",
     "framer-motion": "^5.4.4",
