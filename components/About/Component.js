@@ -7,7 +7,7 @@ import { Inner, ImageContainer, Contact, AboutMe } from './Styles';
 import { textVariants, logoVariants } from './Animations';
 
 const About = () => {
-  const { t } = useTranslation('home');
+  const { t, lang } = useTranslation('home');
 
   return (
     <section id='about' className='bg-zinc-900 py-24 md:py-48'>
@@ -96,9 +96,21 @@ const About = () => {
               href='mailto:clementizard@tutanota.com'
               target='_blank'
               rel='noreferrer'
-              className='flex items-center justify-center'
+              className='flex items-center justify-center mr-12'
             >
               <Image src='/icons/mail.png' alt='Email icon' width={35} height={30} />
+            </motion.a>
+            <motion.a
+              whileInView="active"
+              initial="hidden"
+              variants={logoVariants}
+              viewport={{ once: true }}
+              transition={{ duration: 0.3, delay: 0.6 }}
+              href={lang === 'fr' ? '/cv/Izard Clement - CV.pdf' : '/cv/Izard Clement - Resume.pdf'}
+              className='flex items-center justify-center'
+              download
+            >
+              <Image src='/icons/pdf-file.png' alt='Email icon' width={30} height={35} />
             </motion.a>
           </div>
         </Contact>

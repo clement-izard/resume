@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React, { memo } from 'react';
 import useTranslation from 'next-translate/useTranslation';
 
-import HeaderImg from '../../public/header.jpg';
+import HeaderImg from 'public/header.jpg';
 import { Arrow, Texts } from './Styles';
 
 const Header = () => {
